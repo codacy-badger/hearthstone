@@ -796,5 +796,404 @@
       2,
       0
     ]
+  },
+  "Ancestral Healing": {
+    "id": "CS2_041",
+    "amount": [
+      2,
+      1
+    ]
+  },
+  "Totemic Might": {
+    "id": "EX1_244",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Forked Lightning": {
+    "id": "EX1_251",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Frost Shock": {
+    "id": "CS2_037",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Lightning Bolt": {
+    "id": "EX1_238",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Rockbiter Weapon": {
+    "id": "CS2_045",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Dust Devil": {
+    "id": "EX1_243",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Stormforged Axe": {
+    "id": "EX1_247",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Windfury": {
+    "id": "CS2_039",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Flametongue Totem": {
+    "id": "EX1_565",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Whirling Zap-o-matic": {
+    "id": "GVG_037",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Hex": {
+    "id": "EX1_246",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Mana Tide Totem": {
+    "id": "EX1_575",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Unbound Elemental": {
+    "id": "EX1_258",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Windspeaker": {
+    "id": "EX1_587",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Bloodlust": {
+    "id": "CS2_046",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Fire Elemental": {
+    "id": "CS2_042",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Sacrificial Pact": {
+    "id": "NEW1_003",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Corruption": {
+    "id": "CS2_063",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Mortal Coil": {
+    "id": "EX1_302",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Soulfire": {
+    "id": "EX1_308",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Blood Imp": {
+    "id": "CS2_059",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Flame Imp": {
+    "id": "EX1_319",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Voidwalker": {
+    "id": "CS2_065",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Darkbomb": {
+    "id": "GVG_015",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Demonfire": {
+    "id": "EX1_596",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Succubus": {
+    "id": "EX1_306",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Drain Life": {
+    "id": "CS2_061",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Sense Demons": {
+    "id": "EX1_317",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Shadow Bolt": {
+    "id": "CS2_057",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Felguard": {
+    "id": "EX1_301",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Void Terror": {
+    "id": "EX1_304",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Hellfire": {
+    "id": "CS2_062",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Imp-losion": {
+    "id": "GVG_045",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Summoning Portal": {
+    "id": "EX1_315",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Doomguard": {
+    "id": "EX1_310",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Dread Infernal": {
+    "id": "CS2_064",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Twisting Nether": {
+    "id": "EX1_312",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Execute": {
+    "id": "CS2_108",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Whirlwind": {
+    "id": "EX1_400",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Warbot": {
+    "id": "GVG_051",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Fiery War Axe": {
+    "id": "CS2_106",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Cleave": {
+    "id": "CS2_114",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Heroic Strike": {
+    "id": "CS2_105",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Slam": {
+    "id": "EX1_391",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Armorsmith": {
+    "id": "EX1_402",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Cruel Taskmaster": {
+    "id": "EX1_603",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Ogre Warmaul": {
+    "id": "GVG_054",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Bouncing Blade": {
+    "id": "GVG_050",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Charge": {
+    "id": "CS2_103",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Shield Block": {
+    "id": "EX1_606",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Warsong Commander": {
+    "id": "EX1_084",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Mortal Strike": {
+    "id": "EX1_408",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Arathi Weaponsmith": {
+    "id": "EX1_398",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Kor'kron Elite": {
+    "id": "NEW1_011",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Screwjank Clunker": {
+    "id": "GVG_055",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Arcanite Reaper": {
+    "id": "CS2_112",
+    "amount": [
+      2,
+      0
+    ]
   }
 }
