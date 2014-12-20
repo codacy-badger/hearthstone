@@ -39,7 +39,7 @@ end
 
 def download_image filename
   url = "http://wow.zamimg.com/images/hearthstone/cards/enus/original/#{filename}"
-  path = File.expand_path("./../source/images/#{filename}", __FILE__)
+  path = File.expand_path("./../source/images/cards/#{filename}", __FILE__)
   open(url) do |image|
     File.open(path, "w") do |file|
       file.puts image.read
