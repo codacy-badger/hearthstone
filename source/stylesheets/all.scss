@@ -6,13 +6,18 @@ body {
   background: black;
 }
 
-h1 {
+h1, h4 {
   color: white;
+  margin-left: 20px;
 }
 
 #search {
   float: right;
   width: 500px;
+  height: 70px;
+  font-size: 56px;
+  line-height: 70px;
+  margin-right: 20px;
 
   .twitter-typeahead, input {
     width: inherit;

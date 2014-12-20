@@ -3,10 +3,11 @@ title: Welcome to Hearthstone!
 ---
 
 <div id="search">
-  <input type="text" id="search"></input>
+  <input type="text" id="search" placeholder="Search"></input>
 </div>
 
 <h1>My Hearthstone Collection</h1>
+<h4>Want to make your own? <a href="https://github.com/bergren2/hearthstone">Fork this repo.</a></h4>
 
 <% data.collection.each do |name, data| %>
   <%= card_tag data %>
