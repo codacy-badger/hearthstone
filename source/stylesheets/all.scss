@@ -10,6 +10,20 @@ h1 {
   color: white;
 }
 
+#search {
+  float: right;
+  width: 500px;
+
+  .twitter-typeahead, input {
+    width: inherit;
+  }
+
+  .tt-dropdown-menu {
+    background: white;
+    width: inherit;
+  }
+}
+
 .card {
   float: left;
   width: 150px;

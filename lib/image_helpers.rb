@@ -4,9 +4,9 @@ module ImageHelpers
     image_tag "loading.png", "data-src" => "images/cards/#{slug}.png"
   end
 
-  def card_tag card # hash
-    id = card[0]
-    amt = card[1]
+  def card_tag card_data # hash
+    id = card_data["id"]
+    amt = card_data["amount"]
 
     tag = ""
 

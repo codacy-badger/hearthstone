@@ -2,9 +2,27 @@ require 'middleman-gh-pages'
 require 'open-uri'
 require 'json'
 
-raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
-dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
-collection_filepath = File.expand_path("./../data/collection.json", __FILE__)
+@raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
+@dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
+@collection_filepath = File.expand_path("./../data/collection.json", __FILE__)
+
+def load_collection
+  print "Loading collection... "
+  infile = open(@collection_filepath)
+  collection = JSON.parse infile.read
+  infile.close
+  print "Done.\n"
+  return collection
+end
+
+def load_dictionary
+  print "Loading dictionary... "
+  infile = open(@dict_filepath)
+  dict = JSON.parse infile.read
+  infile.close
+  print "Done.\n"
+  return dict
+end
 
 def ask_user
   STDIN.gets.strip
@@ -14,7 +32,7 @@ def ask_card_name dict
   loop do
     print "Which card would you like to modify in your collection? "
     name = ask_user
-    return dict[name] if dict.assoc(name)
+    return [name, dict[name]] if dict.assoc(name)
     print "Couldn't find the card '#{name}'.\n"
   end
 end
@@ -35,7 +53,7 @@ namespace :cards do
     print "Updating cards_raw.json... "
     url = "http://hearthstonejson.com/json/AllSets.json"
 
-    open(raw_filepath, "w") do |f|
+    open(@raw_filepath, "w") do |f|
       f << open(url).read
     end
 
@@ -46,7 +64,7 @@ namespace :cards do
   desc "Creates dictionary of cards based on name"
   task :dict do
     print "Updating cards_dictionary.json... "
-    infile = open(raw_filepath, "r")
+    infile = open(@raw_filepath, "r")
     raw_hash = JSON.parse infile.read
     infile.close
 
@@ -60,7 +78,7 @@ namespace :cards do
       end
     end
 
-    open(dict_filepath, "w") do |f|
+    open(@dict_filepath, "w") do |f|
       f << working_hash.to_json
     end
     print "Done.\n"
@@ -68,22 +86,19 @@ namespace :cards do
 
   desc "Download collection cards from Hearthhead"
   task :grab_images do
-    print "Loading collection... "
-    infile = open(collection_filepath)
-    collection = JSON.parse infile.read
-    infile.close
-    print "Done.\n"
+    collection = load_collection
 
     print "Downloading collection card images... "
     images = Dir.entries(File.expand_path("./../source/images/cards", __FILE__))
 
-    collection.each do |id, amount|
-      if amount[0] > 0
+    collection.each do |name, data|
+      id = data["id"]
+      if data["amount"][0] > 0
         filename = "#{id}.png"
         download_image(filename) unless images.include? filename
       end
 
-      if amount[1] > 0
+      if data["amount"][1] > 0
         filename = "#{id}_premium.png"
         download_image(filename) unless images.include? filename
       end
@@ -96,29 +111,22 @@ end
 namespace :collection do
   desc "add or remove cards from collection"
   task :edit do
-    print "Loading dictionary... "
-    infile = open(dict_filepath)
-    dict = JSON.parse infile.read
-    infile.close
-    print "Done.\n"
-
-    print "Loading collection... "
-    infile = open(collection_filepath)
-    collection = JSON.parse infile.read
-    infile.close
-    print "Done.\n"
+    dict = load_dictionary
+    collection = load_collection
 
     loop do
       card = ask_card_name dict
-      id = card["id"]
-      card_owned = collection[id] # nil if not owned
+      name = card[0]
 
-      if card_owned
+      if collection[name]
+        card_owned = collection[name]["amount"]
         print "You have #{card_owned[0]} regular card(s) and #{card_owned[1]} golden " +
               "cards currently in your collection.\n"
       else
         print "You don't have that card yet.\n"
-        collection[id] = [0, 0]
+        collection[name] = {}
+        collection[name]["id"] = card[1]["id"]
+        collection[name]['amount'] = [0, 0]
       end
 
       print "How many regular cards do you have? "
@@ -126,17 +134,23 @@ namespace :collection do
       print "How many golden cards do you have? "
       amt_gold = ask_user.to_i
 
-      collection[id] = [amt_reg, amt_gold]
+      collection[name]["amount"] = [amt_reg, amt_gold]
 
       print "Add another card? (y/n) "
       yes_or_no = ask_user.downcase
       break if yes_or_no == 'n'
     end
 
-    open(collection_filepath, "w") do |f|
+    open(@collection_filepath, "w") do |f|
       f << JSON.pretty_generate(collection)
     end
 
     Rake::Task["cards:grab_images"].invoke
+  end
+end
+
+namespace :typeahead do
+  desc ""
+  task :create_source do
   end
 end

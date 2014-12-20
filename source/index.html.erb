@@ -2,8 +2,12 @@
 title: Welcome to Hearthstone!
 ---
 
+<div id="search">
+  <input type="text" id="search"></input>
+</div>
+
 <h1>My Hearthstone Collection</h1>
 
-<% data.collection.each do |card| %>
-  <%= card_tag card %>
+<% data.collection.each do |name, data| %>
+  <%= card_tag data %>
 <% end %>

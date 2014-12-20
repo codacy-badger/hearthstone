@@ -1,158 +1,275 @@
 {
-  "EX1_169": [
-    2,
-    0
-  ],
-  "CS2_008": [
-    2,
-    0
-  ],
-  "CS2_005": [
-    2,
-    0
-  ],
-  "EX1_161": [
-    1,
-    0
-  ],
-  "CS2_009": [
-    2,
-    0
-  ],
-  "EX1_160": [
-    2,
-    0
-  ],
-  "CS2_013": [
-    2,
-    1
-  ],
-  "EX1_154": [
-    1,
-    0
-  ],
-  "GVG_030": [
-    2,
-    0
-  ],
-  "CS2_007": [
-    2,
-    2
-  ],
-  "EX1_155": [
-    2,
-    0
-  ],
-  "CS2_011": [
-    2,
-    0
-  ],
-  "FP1_019": [
-    2,
-    0
-  ],
-  "EX1_158": [
-    2,
-    0
-  ],
-  "CS2_012": [
-    2,
-    0
-  ],
-  "NEW1_007": [
-    0,
-    1
-  ],
-  "EX1_165": [
-    2,
-    0
-  ],
-  "EX1_173": [
-    2,
-    0
-  ],
-  "EX1_178": [
-    0,
-    1
-  ],
-  "CS2_232": [
-    2,
-    0
-  ],
-  "CS2_084": [
-    2,
-    0
-  ],
-  "DS1_185": [
-    2,
-    0
-  ],
-  "DS1_184": [
-    2,
-    2
-  ],
-  "DS1_175": [
-    2,
-    0
-  ],
-  "FP1_011": [
-    2,
-    0
-  ],
-  "EX1_610": [
-    2,
-    0
-  ],
-  "EX1_544": [
-    1,
-    0
-  ],
-  "EX1_611": [
-    1,
-    0
-  ],
-  "EX1_609": [
-    2,
-    0
-  ],
-  "NEW1_031": [
-    2,
-    0
-  ],
-  "EX1_617": [
-    1,
-    0
-  ],
-  "EX1_539": [
-    2,
-    0
-  ],
-  "EX1_538": [
-    2,
-    0
-  ],
-  "DS1_183": [
-    2,
-    0
-  ],
-  "DS1_070": [
-    2,
-    0
-  ],
-  "GVG_046": [
-    1,
-    0
-  ],
-  "CS2_237": [
-    2,
-    0
-  ],
-  "DS1_178": [
-    2,
-    0
-  ],
-  "EX1_534": [
-    1,
-    0
-  ]
+  "Innervate": {
+    "id": "EX1_169",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Moonfire": {
+    "id": "CS2_008",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Claw": {
+    "id": "CS2_005",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Naturalize": {
+    "id": "EX1_161",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Mark of the Wild": {
+    "id": "CS2_009",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Power of the Wild": {
+    "id": "EX1_160",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Wild Growth": {
+    "id": "CS2_013",
+    "amount": [
+      2,
+      1
+    ]
+  },
+  "Wrath": {
+    "id": "EX1_154",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Anodized Robo Cub": {
+    "id": "GVG_030",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Healing Touch": {
+    "id": "CS2_007",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Mark of Nature": {
+    "id": "EX1_155",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Savage Roar": {
+    "id": "CS2_011",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Poison Seeds": {
+    "id": "FP1_019",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Soul of the Forest": {
+    "id": "EX1_158",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Swipe": {
+    "id": "CS2_012",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Starfall": {
+    "id": "NEW1_007",
+    "amount": [
+      0,
+      1
+    ]
+  },
+  "Druid of the Claw": {
+    "id": "EX1_165",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Starfire": {
+    "id": "EX1_173",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Ancient of War": {
+    "id": "EX1_178",
+    "amount": [
+      0,
+      1
+    ]
+  },
+  "Ironbark Protector": {
+    "id": "CS2_232",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Hunter's Mark": {
+    "id": "CS2_084",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Arcane Shot": {
+    "id": "DS1_185",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Tracking": {
+    "id": "DS1_184",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Timber Wolf": {
+    "id": "DS1_175",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Webspinner": {
+    "id": "FP1_011",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Explosive Trap": {
+    "id": "EX1_610",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Flare": {
+    "id": "EX1_544",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Freezing Trap": {
+    "id": "EX1_611",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Snipe": {
+    "id": "EX1_609",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Animal Companion": {
+    "id": "NEW1_031",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Deadly Shot": {
+    "id": "EX1_617",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Kill Command": {
+    "id": "EX1_539",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Unleash the Hounds": {
+    "id": "EX1_538",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Multi-Shot": {
+    "id": "DS1_183",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Houndmaster": {
+    "id": "DS1_070",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "King of Beasts": {
+    "id": "GVG_046",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Starving Buzzard": {
+    "id": "CS2_237",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Tundra Rhino": {
+    "id": "DS1_178",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Savannah Highmane": {
+    "id": "EX1_534",
+    "amount": [
+      1,
+      0
+    ]
+  }
 }
