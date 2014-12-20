@@ -42,8 +42,7 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def hearthhead_img_url card, golden # string, boolean
-    id = card["id"]
+  def hearthhead_img_url id, golden # string, boolean
     slug = golden ? "#{id}_premium" : "#{id}"
     "http://wow.zamimg.com/images/hearthstone/cards/enus/original/#{slug}.png"
   end
