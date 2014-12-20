@@ -19,6 +19,16 @@ def ask_card_name dict
   end
 end
 
+def download_image filename
+  url = "http://wow.zamimg.com/images/hearthstone/cards/enus/original/#{filename}"
+  path = File.expand_path("./../source/images/#{filename}", __FILE__)
+  open(url) do |image|
+    File.open(path, "w") do |file|
+      file.puts image.read
+    end
+  end
+end
+
 namespace :cards do
   desc "Updates cards data from hearthstonejson.com"
   task :update do
@@ -53,6 +63,32 @@ namespace :cards do
     open(dict_filepath, "w") do |f|
       f << working_hash.to_json
     end
+    print "Done.\n"
+  end
+
+  desc "Download collection cards from Hearthhead"
+  task :grab_images do
+    print "Loading collection... "
+    infile = open(collection_filepath)
+    collection = JSON.parse infile.read
+    infile.close
+    print "Done.\n"
+
+    print "Downloading collection card images... "
+    images = Dir.entries(File.expand_path("./../source/images", __FILE__))
+
+    collection.each do |id, amount|
+      if amount[0] > 0
+        filename = "#{id}.png"
+        download_image(filename) unless images.include? filename
+      end
+
+      if amount[1] > 0
+        filename = "#{id}_premium.png"
+        download_image(filename) unless images.include? filename
+      end
+    end
+
     print "Done.\n"
   end
 end
@@ -100,5 +136,7 @@ namespace :collection do
     open(collection_filepath, "w") do |f|
       f << JSON.pretty_generate(collection)
     end
+
+    Rake::Task["cards:grab_images"].invoke
   end
 end
