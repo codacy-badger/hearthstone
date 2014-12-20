@@ -271,5 +271,285 @@
       1,
       0
     ]
+  },
+  "Arcane Missiles": {
+    "id": "EX1_277",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Ice Lance": {
+    "id": "CS2_031",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Mirror Image": {
+    "id": "CS2_027",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Mana Wyrm": {
+    "id": "NEW1_012",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Arcane Explosion": {
+    "id": "CS2_025",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Flamecannon": {
+    "id": "GVG_001",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Frostbolt": {
+    "id": "CS2_024",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Sorcerer's Apprentice": {
+    "id": "EX1_608",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Arcane Intellect": {
+    "id": "CS2_023",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Duplicate": {
+    "id": "FP1_018",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Frost Nova": {
+    "id": "CS2_026",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Ice Barrier": {
+    "id": "EX1_289",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Mirror Entity": {
+    "id": "EX1_294",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Vaporize": {
+    "id": "EX1_594",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Fireball": {
+    "id": "CS2_029",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Polymorph": {
+    "id": "CS2_022",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Ethereal Arcanist": {
+    "id": "EX1_274",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Goblin Blastmage": {
+    "id": "GVG_004",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Water Elemental": {
+    "id": "CS2_033",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Blizzard": {
+    "id": "CS2_028",
+    "amount": [
+      2,
+      1
+    ]
+  },
+  "Flamestrike": {
+    "id": "CS2_032",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Light's Justice": {
+    "id": "CS2_091",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Blessing of Might": {
+    "id": "CS2_087",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Eye for an Eye": {
+    "id": "EX1_132",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Hand of Protection": {
+    "id": "EX1_371",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Humility": {
+    "id": "EX1_360",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Redemption": {
+    "id": "EX1_136",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Repentance": {
+    "id": "EX1_379",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Equality": {
+    "id": "EX1_619",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Holy Light": {
+    "id": "CS2_089",
+    "amount": [
+      2,
+      2
+    ]
+  },
+  "Argent Protector": {
+    "id": "EX1_362",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Shielded Minibot": {
+    "id": "GVG_058",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Muster for Battle": {
+    "id": "GVG_061",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Truesilver Champion": {
+    "id": "CS2_097",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Blessing of Kings": {
+    "id": "CS2_092",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Consecration": {
+    "id": "CS2_093",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Hammer of Wrath": {
+    "id": "CS2_094",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Holy Wrath": {
+    "id": "EX1_365",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Avenging Wrath": {
+    "id": "EX1_384",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Guardian of Kings": {
+    "id": "CS2_088",
+    "amount": [
+      2,
+      0
+    ]
   }
 }
