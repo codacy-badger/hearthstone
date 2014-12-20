@@ -75,7 +75,7 @@ namespace :cards do
     print "Done.\n"
 
     print "Downloading collection card images... "
-    images = Dir.entries(File.expand_path("./../source/images", __FILE__))
+    images = Dir.entries(File.expand_path("./../source/images/cards", __FILE__))
 
     collection.each do |id, amount|
       if amount[0] > 0

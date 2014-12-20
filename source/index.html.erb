@@ -2,21 +2,8 @@
 title: Welcome to Hearthstone!
 ---
 
+<h1>My Hearthstone Collection</h1>
+
 <% data.collection.each do |card| %>
-  <% id = card[0] %>
-  <% amt = card[1] %>
-
-  <div class="card">
-    <%= card_image_tag(id, false) if amt[0] > 0 %>
-    <div class="amount">
-      <%= "x#{2}" if amt[0] > 1 %>
-    </div>
-  </div>
-
-  <div class="card">
-    <%= card_image_tag(id, true) if amt[1] > 0 %>
-    <div class="amount">
-      <%= "x#{2}" if amt[1] > 1 %>
-    </div>
-  </div>
+  <%= card_tag card %>
 <% end %>

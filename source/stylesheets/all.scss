@@ -2,18 +2,36 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background: black;
+}
+
+h1 {
+  color: white;
+}
+
 .card {
   float: left;
   width: 150px;
+  height: 275px;
 
   img {
-    width: 100%;
+    width: inherit;
+    height: 227px;
+    opacity: 0;
+    transition: opacity 5s;
+
+    &.loaded {
+      opacity: 1;
+    }
   }
 }
 
 .amount {
+  color: white;
   font-family: serif;
   font-size: 24px;
   line-height: 24px;
+  height: 24px;
   text-align: center;
 }

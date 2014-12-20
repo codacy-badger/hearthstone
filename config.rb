@@ -1,3 +1,6 @@
+require 'lib/image_helpers'
+helpers ImageHelpers
+
 ###
 # Compass
 ###
@@ -40,20 +43,10 @@ configure :development do
   activate :livereload
 end
 
-# Methods defined in the helpers block are available in templates
-helpers do
-  def card_image_tag id, golden # string, boolean
-    slug = golden ? "#{id}_premium" : "#{id}"
-    # "http://wow.zamimg.com/images/hearthstone/cards/enus/original/#{slug}.png"
-    image_tag "#{slug}.png"
-  end
-end
-
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
+set :css_dir, "stylesheets"
+set :js_dir, "javascripts"
+set :images_dir, "images"
+sprockets.append_path File.join root, "bower_components"
 
 # Build-specific configuration
 configure :build do
