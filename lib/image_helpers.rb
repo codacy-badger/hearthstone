@@ -11,14 +11,14 @@ module ImageHelpers
     tag = ""
 
     if amt[0] > 0
-      tag << '<div class="card">'
+      tag << '<div class="card ' + id + '">'
       tag << card_image_tag(id, false)
       tag << '<div class="amount">x2</div>' if amt[0] > 1
       tag << '</div>'
     end
 
     if amt[1] > 0
-      tag << '<div class="card">'
+      tag << '<div class="card ' + id + '">'
       tag << card_image_tag(id, true)
       tag << '<div class="amount">x2</div>' if amt[1] > 1
       tag << '</div>'

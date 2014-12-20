@@ -1,0 +1,7 @@
+<script type="text/javascript">
+  var CARD_NAMES = {
+  <% data.collection.each do |name, data| %>
+    <%= '"' + name + '": "' + data["id"] + '",' %>
+  <% end %>
+  }
+</script>

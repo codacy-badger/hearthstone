@@ -1,18 +1,24 @@
 //= require_tree .
 //= require jquery
-//= require typeahead
 
-function myCollection (query, callback) {
-  var set = [1, 2, 3, 4, 5, 6];
-  callback(set);
+function search (query) {
+  var set = [];
+  var key, cardId;
+  for (key in CARD_NAMES) {
+    cardId = CARD_NAMES[key];
+    if (key.toLowerCase().indexOf(query.toLowerCase()) > -1) {
+      $('.' + cardId).show();
+    } else {
+      $('.' + cardId).hide();
+    }
+  }
 }
 
 $(document).on('ready', function () {
-  $('#search > input').typeahead({
-    minLength: 3
-  },{
-    name: 'my-collection',
-    source: myCollection
+  $('#search > input').on('keypress', function (e) {
+    if(e.which === 13) {
+      search($(this).val());
+    }
   });
 
   $('.card > img').each( function () {
