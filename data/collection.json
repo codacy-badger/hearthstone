@@ -551,5 +551,250 @@
       2,
       0
     ]
+  },
+  "Circle of Healing": {
+    "id": "EX1_621",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Holy Smite": {
+    "id": "CS1_130",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Mind Vision": {
+    "id": "CS2_003",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Power Word: Shield": {
+    "id": "CS2_004",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Northshire Cleric": {
+    "id": "CS2_235",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Divine Spirit": {
+    "id": "CS2_236",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Mind Blast": {
+    "id": "DS1_233",
+    "amount": [
+      2,
+      1
+    ]
+  },
+  "Shadow Word: Pain": {
+    "id": "CS2_234",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Shadow Word: Death": {
+    "id": "EX1_622",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Velen's Chosen": {
+    "id": "GVG_010",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Shadow Madness": {
+    "id": "EX1_334",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Lightspawn": {
+    "id": "EX1_335",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Holy Nova": {
+    "id": "CS1_112",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Holy Fire": {
+    "id": "EX1_624",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Temple Enforcer": {
+    "id": "EX1_623",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Mind Control": {
+    "id": "CS1_113",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Backstab": {
+    "id": "CS2_072",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Shadowstep": {
+    "id": "EX1_144",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Conceal": {
+    "id": "EX1_128",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Deadly Poison": {
+    "id": "CS2_074",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Sinister Strike": {
+    "id": "CS2_075",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Betrayal": {
+    "id": "EX1_126",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Eviscerate": {
+    "id": "EX1_124",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Sap": {
+    "id": "EX1_581",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Shiv": {
+    "id": "EX1_278",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Defias Ringleader": {
+    "id": "EX1_131",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Goblin Auto-Barber": {
+    "id": "GVG_023",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Patient Assassin": {
+    "id": "EX1_522",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Fan of Knives": {
+    "id": "EX1_129",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Anub'ar Ambusher": {
+    "id": "FP1_026",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Assassin's Blade": {
+    "id": "CS2_080",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Assassinate": {
+    "id": "CS2_076",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Vanish": {
+    "id": "NEW1_004",
+    "amount": [
+      2,
+      0
+    ]
+  },
+  "Kidnapper": {
+    "id": "NEW1_005",
+    "amount": [
+      1,
+      0
+    ]
+  },
+  "Sprint": {
+    "id": "CS2_077",
+    "amount": [
+      2,
+      0
+    ]
   }
 }
