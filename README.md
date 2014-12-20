@@ -2,6 +2,8 @@
 
 Well met!
 
+This site uses data from [Hearthstone JSON](http://hearthstonejson.com).
+
 ## Environment Prereqs
 
 You should have the following minimally setup:

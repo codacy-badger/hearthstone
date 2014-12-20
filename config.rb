@@ -41,11 +41,13 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def hearthhead_img_url card, golden # string, boolean
+    id = card["id"]
+    slug = golden ? "#{id}_premium" : "#{id}"
+    "http://wow.zamimg.com/images/hearthstone/cards/enus/original/#{slug}.png"
+  end
+end
 
 set :css_dir, 'stylesheets'
 
