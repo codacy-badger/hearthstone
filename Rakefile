@@ -5,6 +5,7 @@ require 'json'
 @raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
 @dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
 @collection_filepath = File.expand_path("./../data/collection.json", __FILE__)
+@data_points = ["id", "text", "rarity", "cost", "attack", "health", "mechanics"]
 
 def load_collection
   print "Loading collection... "
@@ -13,6 +14,14 @@ def load_collection
   infile.close
   print "Done.\n"
   return collection
+end
+
+def write_collection hash
+  print "Writing collection... "
+  open(@collection_filepath, "w") do |f|
+    f << JSON.pretty_generate(hash)
+  end
+  print "Done.\n"
 end
 
 def load_dictionary
@@ -125,8 +134,10 @@ namespace :collection do
       else
         print "You don't have that card yet.\n"
         collection[name] = {}
-        collection[name]["id"] = card[1]["id"]
-        collection[name]['amount'] = [0, 0]
+        collection[name]["amount"] = [0, 0]
+        @data_points.each do |pt|
+          collection[name][pt] = card[1][pt]
+        end
       end
 
       print "How many regular cards do you have? "
@@ -141,16 +152,26 @@ namespace :collection do
       break if yes_or_no == 'n'
     end
 
-    open(@collection_filepath, "w") do |f|
-      f << JSON.pretty_generate(collection)
-    end
+    write_collection collection
 
     Rake::Task["cards:grab_images"].invoke
   end
-end
 
-namespace :typeahead do
-  desc ""
-  task :create_source do
+  desc "Rebuilds collection with new data points"
+  task :rebuild do
+    collection = load_collection
+    dict = load_dictionary
+
+    print "Rebuilding collection... "
+    collection.each do |name, data|
+      @data_points.each do |pt|
+        unless data.has_key? pt
+          data[pt] = dict[name][pt]
+        end
+      end
+    end
+    print "Done\n"
+
+    write_collection collection
   end
 end
