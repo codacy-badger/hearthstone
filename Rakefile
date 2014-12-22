@@ -6,6 +6,16 @@ require 'json'
 @dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
 @collection_filepath = File.expand_path("./../data/collection.json", __FILE__)
 @data_points = ["id", "text", "rarity", "cost", "attack", "health", "mechanics"]
+@spinner = {
+  index: 0,
+  chars: ["/", "-", "\\"]
+}
+
+def spinner
+  i = (@spinner[:index] + 1) % @spinner[:chars].size
+  @spinner[:index] = i
+  @spinner[:chars][i]
+end
 
 def load_collection
   print "Loading collection... "
@@ -97,11 +107,12 @@ namespace :cards do
   task :grab_images do
     collection = load_collection
 
-    print "Downloading collection card images... "
     images = Dir.entries(File.expand_path("./../source/images/cards", __FILE__))
 
     collection.each do |name, data|
       id = data["id"]
+      print "\rDownloading collection card images... #{spinner}"
+
       if data["amount"][0] > 0
         filename = "#{id}.png"
         download_image(filename) unless images.include? filename
@@ -113,7 +124,7 @@ namespace :cards do
       end
     end
 
-    print "Done.\n"
+    print "\rDownloading collection card images... Done.\n"
   end
 end
 
