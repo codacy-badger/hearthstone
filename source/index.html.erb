@@ -11,6 +11,10 @@ title: Welcome to Hearthstone!
   <h4>Want to make your own? <a href="https://github.com/bergren2/hearthstone">Fork this repo.</a></h4>
 </header>
 
+<div id="loading">
+  <div class="progress"></div>
+</div>
+
 <div id="cards">
   <% data.collection.each do |name, data| %>
     <%= card_tag data %>
