@@ -55,15 +55,8 @@ $(document).on('ready', function () {
     $this.on('load', function () {
       $(this).parent().addClass('loaded');
       progress.update();
-    }).on('click', function () {
-      var img = '<img src="' + $(this).data('src') + '" />';
-      $('#lightbox').addClass('loaded').html(img).show();
     });
     var src = $this.data('src');
     $this.attr('src', src);
-  });
-
-  $('#lightbox').on('click', function () {
-    $(this).removeClass('loaded').hide();
   });
 });

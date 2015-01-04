@@ -1,7 +1,6 @@
 module ImageHelpers
   def card_image_tag id, golden # string, boolean
-    slug = golden ? "#{id}_premium" : "#{id}"
-    image_tag "loading.png", "data-src" => "images/cards/#{slug}.png"
+    image_tag "loading.png", "data-src" => "images/cards/#{id}.png"
   end
 
   def card_tag card_data # hash
@@ -9,20 +8,16 @@ module ImageHelpers
     amt = card_data["amount"]
 
     tag = ""
-
-    if amt[0] > 0
-      tag << '<div class="card ' + id + '">'
-      tag << card_image_tag(id, false)
-      tag << '<div class="amount">x2</div>' if amt[0] > 1
-      tag << '</div>'
+    tag << '<div class="card ' + id + '">'
+    tag << '<div class="mana">' + card_data["cost"].to_s + '</div>'
+    tag << '<div class="amount">x'+ amt[0].to_s + '</div>'
+    tag << '<div class="amount golden">x'+ amt[1].to_s + '</div>'
+    tag << card_image_tag(id, false)
+    if card_data["type"] == "Minion"
+      tag << '<div class="attack">' + card_data["attack"].to_s + '</div>'
+      tag << '<div class="health">' + card_data["health"].to_s + '</div>'
     end
-
-    if amt[1] > 0
-      tag << '<div class="card ' + id + '">'
-      tag << card_image_tag(id, true)
-      tag << '<div class="amount">x2</div>' if amt[1] > 1
-      tag << '</div>'
-    end
+    tag << '</div>'
 
     return tag
   end

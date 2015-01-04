@@ -1,11 +1,12 @@
 require 'middleman-gh-pages'
+require 'mini_magick'
 require 'open-uri'
 require 'json'
 
 @raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
 @dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
 @collection_filepath = File.expand_path("./../data/collection.json", __FILE__)
-@data_points = ["id", "text", "rarity", "cost", "attack", "health", "mechanics"]
+@data_points = ["id", "text", "type", "rarity", "cost", "attack", "health", "mechanics"]
 @spinner = {
   index: 0,
   chars: ["/", "-", "\\"]
@@ -56,7 +57,7 @@ def ask_card_name dict
   end
 end
 
-def download_image filename
+def download_and_crop_image filename
   url = "http://wow.zamimg.com/images/hearthstone/cards/enus/original/#{filename}"
   path = File.expand_path("./../source/images/cards/#{filename}", __FILE__)
   open(url) do |image|
@@ -64,6 +65,10 @@ def download_image filename
       file.puts image.read
     end
   end
+
+  image = MiniMagick::Image.open(path)
+  image.crop("100x100+100+120") #hardcodez ftw
+  image.write path
 end
 
 namespace :cards do
@@ -113,14 +118,9 @@ namespace :cards do
       id = data["id"]
       print "\rDownloading collection card images... #{spinner}"
 
-      if data["amount"][0] > 0
+      if data["amount"][0] + data["amount"][1] > 0
         filename = "#{id}.png"
-        download_image(filename) unless images.include? filename
-      end
-
-      if data["amount"][1] > 0
-        filename = "#{id}_premium.png"
-        download_image(filename) unless images.include? filename
+        download_and_crop_image(filename) unless images.include? filename
       end
     end
 

@@ -11,6 +11,7 @@ You should have the following minimally setup:
 - [Git](https://help.github.com/articles/set-up-git) (duh)
 - [rbenv](https://github.com/sstephenson/rbenv)
 & [ruby-build](https://github.com/sstephenson/ruby-build)
+- ImageMagick (`$ brew install imagemagick`)
 
 ## Initial Project Setup
 
