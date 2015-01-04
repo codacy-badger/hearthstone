@@ -69,17 +69,23 @@ header {
 }
 
 .card {
-  width: 100px;
+  width: 300px;
   height: 150px;
   position: relative;
   display: inline-block;
   overflow: hidden; // TODO hack to prevent random images from spilling over
 
+  > div, img {
+    position: absolute;
+  }
+
   img {
-    width: inherit;
+    width: 100px;
     height: 100px;
     opacity: 0;
     transition: opacity 5s;
+    top: 25px;
+    left: 0;
   }
 
   &.loaded {
@@ -95,18 +101,61 @@ header {
     line-height: 25px;
     text-align: center;
     display: inline-block;
+
+    &.none {
+      background-color: none;
+    }
+  }
+
+  .name, .info, .type {
+    color: white;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    display: inline-block;
+  }
+
+  .type {
+    top: 125px;
+    left: 100px;
   }
 
   .mana {
     background-color: #2f5dd8;
+    top: 0;
+    left: 0;
+  }
+
+  .attack, .health {
+    top: 125px;
+
+    &.none {
+      background: none;
+    }
   }
 
   .attack {
     background-color: #ffac32;
+    left: 0;
   }
 
   .health {
     background-color: #ca3030;
+    left: 50px;
+  }
+
+  .info {
+    height: 100px;
+    background: #333;
+    top: 25px;
+    left: 100px;
+  }
+
+  .name {
+    height: 25px;
+    top: 0;
+    left: 100px;
   }
 
   .amount {
@@ -118,12 +167,12 @@ header {
     text-align: center;
     transition: color 5s;
     display: inline-block;
-    position: absolute;
     top: 0;
+    left: 50px;
 
     &.golden {
       color: #ca800b;
-      right: 0;
+      left: 75px;
     }
   }
 }

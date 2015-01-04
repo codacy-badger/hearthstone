@@ -16,7 +16,7 @@ title: Welcome to Hearthstone!
 </div>
 
 <div id="cards">
-  <% data.collection.each do |name, data| %>
-    <%= card_tag data %>
+  <% data.collection.each do |name, card_data| %>
+    <%= card_tag name, card_data %>
   <% end %>
 </div>

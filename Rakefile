@@ -6,7 +6,7 @@ require 'json'
 @raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
 @dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
 @collection_filepath = File.expand_path("./../data/collection.json", __FILE__)
-@data_points = ["id", "text", "type", "rarity", "cost", "attack", "health", "mechanics"]
+@data_points = ["id", "text", "type", "rarity", "cost", "attack", "health", "race", "mechanics"]
 @spinner = {
   index: 0,
   chars: ["/", "-", "\\"]

@@ -3,20 +3,30 @@ module ImageHelpers
     image_tag "loading.png", "data-src" => "images/cards/#{id}.png"
   end
 
-  def card_tag card_data # hash
-    id = card_data["id"]
-    amt = card_data["amount"]
+  def card_tag name, data # hash
+    id = data["id"]
+    amt = data["amount"]
 
     tag = ""
     tag << '<div class="card ' + id + '">'
-    tag << '<div class="mana">' + card_data["cost"].to_s + '</div>'
+    tag << '<div class="mana">' + data["cost"].to_s + '</div>'
     tag << '<div class="amount">x'+ amt[0].to_s + '</div>'
     tag << '<div class="amount golden">x'+ amt[1].to_s + '</div>'
+    tag << '<div class="name">' + name + '</div>'
     tag << card_image_tag(id, false)
-    if card_data["type"] == "Minion"
-      tag << '<div class="attack">' + card_data["attack"].to_s + '</div>'
-      tag << '<div class="health">' + card_data["health"].to_s + '</div>'
+    if data["text"]
+      tag << '<div class="info">' + data["text"] + '</div>'
+    else
+      tag << '<div class="info"></div>' # TODO refactor
     end
+    if data["type"] == "Minion"
+      tag << '<div class="attack">' + data["attack"].to_s + '</div>'
+      tag << '<div class="health">' + data["health"].to_s + '</div>'
+    else
+      tag << '<div class="attack none"></div>'
+      tag << '<div class="health none"></div>'
+    end
+    tag << '<div class="type">' + data["race"] + '</div>' if data["race"]
     tag << '</div>'
 
     return tag
