@@ -98,7 +98,7 @@ header {
     }
   }
 
-  .name, .info, .type {
+  .name, .info, .race {
     width: 200px;
     height: 25px;
     line-height: 25px;
@@ -106,7 +106,7 @@ header {
     display: inline-block;
   }
 
-  .type {
+  .race {
     top: 125px;
     left: 100px;
     background: #aaa;

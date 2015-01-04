@@ -27,7 +27,7 @@ module ImageHelpers
       tag << '<div class="attack none"></div>'
       tag << '<div class="health none"></div>'
     end
-    tag << '<div class="type">' + data["race"] + '</div>' if data["race"]
+    tag << '<div class="race">' + data["race"] + '</div>' if data["race"]
     tag << '</div>'
 
     return tag
