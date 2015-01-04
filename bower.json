@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "jquery": "~2.1.3",
-    "typeahead": "typeahead.js#~0.10.5"
+    "jquery": "~2.1.3"
   }
 }
