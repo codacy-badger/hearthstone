@@ -15,7 +15,8 @@ module ImageHelpers
     tag << '<div class="name">' + name + '</div>'
     tag << card_image_tag(id, false)
     if data["text"]
-      tag << '<div class="info">' + data["text"] + '</div>'
+      text = data["text"].gsub(/\$(\d+)/, '\1')
+      tag << '<div class="info">' + text + '</div>'
     else
       tag << '<div class="info"></div>' # TODO refactor
     end
