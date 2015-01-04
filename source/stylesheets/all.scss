@@ -2,6 +2,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  text-align: center;
+}
+
 h1, h4 {
   margin-left: 20px;
 }
@@ -13,6 +17,7 @@ header {
   min-width: 1000px;
   height: 100px;
   z-index: 1;
+  text-align: left;
 }
 
 #loading {
@@ -60,11 +65,28 @@ header {
 
 .card {
   background: #aaa; // default
-  width: 300px;
-  height: 150px;
+  width: 305px;
+  height: 155px;
   position: relative;
   display: inline-block;
   overflow: hidden; // TODO hack to prevent random images from spilling over
+  border-right: 5px solid gray;
+
+  &.common {
+    border-color: #b5c6dd;
+  }
+
+  &.rare {
+    border-color: #4ca2f9;
+  }
+
+  &.epic {
+    border-color: #c84cfd;
+  }
+
+  &.legendary {
+    border-color: #ed8e2b;
+  }
 
   > div, img {
     position: absolute;

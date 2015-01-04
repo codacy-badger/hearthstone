@@ -8,7 +8,7 @@ module ImageHelpers
     amt = data["amount"]
 
     tag = ""
-    tag << '<div class="card ' + id + '">'
+    tag << '<div class="card' + " #{data["rarity"].downcase}" + " #{id}" + '">'
     tag << '<div class="mana">' + data["cost"].to_s + '</div>'
     tag << '<div class="amount">x'+ amt[0].to_s + '</div>'
     tag << '<div class="amount golden">x'+ amt[1].to_s + '</div>'
