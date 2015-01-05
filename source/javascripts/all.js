@@ -24,7 +24,7 @@ function search (query) {
     var found = true;
     i = 0;
     do {
-      if (key.toLowerCase().indexOf(normal[i].toLowerCase()) === -1) {
+      if (normal[i] && key.toLowerCase().indexOf(normal[i].toLowerCase()) === -1) {
         found = false;
       }
       i += 1;
