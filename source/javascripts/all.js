@@ -4,9 +4,33 @@
 function search (query) {
   var set = [];
   var key, cardId;
+
+  // remove special : queries
+  var terms = query.split(/\s+/);
+
+  var special = [];
+  var normal = [];
+  var i;
+  for (i = 0; i < terms.length; i++) {
+    if (terms[i].indexOf(':') > -1) {
+      special.push(terms[i]);
+    } else {
+      normal.push(terms[i]);
+    }
+  }
+
   for (key in CARD_NAMES) {
     cardId = CARD_NAMES[key];
-    if (key.toLowerCase().indexOf(query.toLowerCase()) > -1) {
+    var found = true;
+    i = 0;
+    do {
+      if (key.toLowerCase().indexOf(normal[i].toLowerCase()) === -1) {
+        found = false;
+      }
+      i += 1;
+    } while (found && i < normal.length);
+
+    if (found) {
       $('.' + cardId).show();
     } else {
       $('.' + cardId).hide();
