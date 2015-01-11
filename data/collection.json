@@ -1122,7 +1122,7 @@
   "Muster for Battle": {
     "id": "GVG_061",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.",
@@ -2685,7 +2685,7 @@
   },
   "Target Dummy": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_093",
@@ -4884,7 +4884,7 @@
   },
   "Floating Watcher": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_100",
@@ -5092,5 +5092,35 @@
     "mechanics": [
       "Battlecry"
     ]
+  },
+  "Ogre Brute": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_065",
+    "text": "50% chance to attack the wrong enemy.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": null
+  },
+  "Cobalt Guardian": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_062",
+    "text": "Whenever you summon a Mech, gain <b>Divine Shield</b>.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 6,
+    "health": 3,
+    "race": "Mech",
+    "mechanics": null
   }
 }
