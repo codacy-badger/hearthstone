@@ -3219,7 +3219,7 @@
   },
   "Mechwarper": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_006",
@@ -3546,7 +3546,7 @@
   },
   "Gnomeregan Infantry": {
     "amount": [
-      0,
+      1,
       1
     ],
     "id": "GVG_098",
@@ -4724,7 +4724,7 @@
   },
   "Tinker's Sharpsword Oil": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_022",
@@ -4805,7 +4805,7 @@
   },
   "Clockwork Gnome": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_082",
@@ -4943,5 +4943,22 @@
     "health": 5,
     "race": "Mech",
     "mechanics": null
+  },
+  "Metaltooth Leaper": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_048",
+    "text": "<b>Battlecry</b>: Give your other Mechs +2 Attack.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": "Mech",
+    "mechanics": [
+      "Battlecry"
+    ]
   }
 }
