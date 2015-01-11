@@ -4960,5 +4960,88 @@
     "mechanics": [
       "Battlecry"
     ]
+  },
+  "Gilblin Stalker": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_081",
+    "text": "<b>Stealth</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Stealth"
+    ]
+  },
+  "Shrinkmeister": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_011",
+    "text": "<b>Battlecry:</b> Give a minion -2 Attack this turn.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Glaivezooka": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_043",
+    "text": "<b>Battlecry:</b> Give a random friendly minion +1 Attack.",
+    "type": "Weapon",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Soot Spewer": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_123",
+    "text": "<b>Spell Damage +1</b>",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": "Mech",
+    "mechanics": [
+      "Spellpower"
+    ]
+  },
+  "Spider Tank": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_044",
+    "text": null,
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "race": "Mech",
+    "mechanics": null
   }
 }
