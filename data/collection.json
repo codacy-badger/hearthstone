@@ -63,7 +63,7 @@
     "id": "CS2_009",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Give a minion <b>Taunt</b> and +2/+2.<i> (+2 Attack/+2 Health)</i>",
     "rarity": "Free",
@@ -5043,5 +5043,54 @@
     "health": 4,
     "race": "Mech",
     "mechanics": null
+  },
+  "Sneed's Old Shredder": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_114",
+    "text": "<b>Deathrattle:</b> Summon a random legendary minion.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 8,
+    "attack": 5,
+    "health": 7,
+    "race": "Mech",
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Cobra Shot": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_073",
+    "text": "Deal $3 damage to a minion and the enemy hero.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Upgraded Repair Bot": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_083",
+    "text": "<b>Battlecry:</b> Give a friendly Mech +4 Health.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "race": "Mech",
+    "mechanics": [
+      "Battlecry"
+    ]
   }
 }
