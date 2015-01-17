@@ -2819,7 +2819,7 @@
   },
   "Secretkeeper": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_080",
@@ -3050,7 +3050,7 @@
   },
   "Crazed Alchemist": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_059",
@@ -4629,7 +4629,7 @@
   },
   "Cold Blood": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "CS2_073",
@@ -4756,7 +4756,7 @@
   },
   "Power Overwhelming": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_316",
@@ -5122,5 +5122,72 @@
     "health": 3,
     "race": "Mech",
     "mechanics": null
+  },
+  "Venture Co. Mercenary": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "CS2_227",
+    "text": "Your minions cost (3) more.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 7,
+    "health": 6,
+    "race": null,
+    "mechanics": [
+      "Aura"
+    ]
+  },
+  "Murloc Warleader": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_507",
+    "text": "ALL other Murlocs have +2/+1.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": "Murloc",
+    "mechanics": [
+      "Aura"
+    ]
+  },
+  "Cult Master": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "EX1_595",
+    "text": "Whenever one of your other minions dies, draw a card.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 4,
+    "health": 2,
+    "race": null,
+    "mechanics": null
+  },
+  "Abomination": {
+    "amount": [
+      0,
+      1
+    ],
+    "id": "EX1_097",
+    "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 2 damage to ALL characters.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Deathrattle",
+      "Taunt"
+    ]
   }
 }
