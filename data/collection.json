@@ -5320,5 +5320,139 @@
     "mechanics": [
       "Deathrattle"
     ]
+  },
+  "Undertaker": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_028",
+    "text": "Whenever you summon a minion with <b>Deathrattle</b>, gain +1/+1.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "race": null,
+    "mechanics": null
+  },
+  "Mad Scientist": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_004",
+    "text": "<b>Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Zombie Chow": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_001",
+    "text": "<b>Deathrattle:</b> Restore 5 Health to the enemy hero.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": 2,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Wailing Soul": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_016",
+    "text": "<b>Battlecry: Silence</b> your other minions.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Feugen": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "FP1_015",
+    "text": "<b>Deathrattle:</b> If Stalagg also died this game, summon Thaddius.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 5,
+    "attack": 4,
+    "health": 7,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Stalagg": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "FP1_014",
+    "text": "<b>Deathrattle:</b> If Feugen also died this game, summon Thaddius.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 5,
+    "attack": 7,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Death's Bite": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_021",
+    "text": "<b>Deathrattle:</b> Deal 1 damage to all minions.",
+    "type": "Weapon",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 4,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Dark Cultist": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_023",
+    "text": "<b>Deathrattle:</b> Give a random friendly minion +3 Health.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
   }
 }
