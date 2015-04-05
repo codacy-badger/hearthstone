@@ -5221,5 +5221,55 @@
     "health": 4,
     "race": "Mech",
     "mechanics": null
+  },
+  "Dancing Swords": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_029",
+    "text": "<b>Deathrattle:</b> Your opponent draws a card.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Spectral Knight": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_008",
+    "text": "Can't be targeted by spells or Hero Powers.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 4,
+    "health": 6,
+    "race": null,
+    "mechanics": null
+  },
+  "Deathlord": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_009",
+    "text": "<b>Taunt. Deathrattle:</b> Your opponent puts a minion from their deck into the battlefield.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 2,
+    "health": 8,
+    "race": null,
+    "mechanics": [
+      "Deathrattle",
+      "Taunt"
+    ]
   }
 }
