@@ -5063,7 +5063,7 @@
   },
   "Cobra Shot": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_073",
@@ -5519,6 +5519,57 @@
     "race": null,
     "mechanics": [
       "Secret"
+    ]
+  },
+  "Snowchugger": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_002",
+    "text": "<b>Freeze</b> any character damaged by this minion.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "race": "Mech",
+    "mechanics": [
+      "Freeze"
+    ]
+  },
+  "Shieldmaiden": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_053",
+    "text": "<b>Battlecry:</b> Gain 5 Armor.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Coghammer": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_059",
+    "text": "<b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.",
+    "type": "Weapon",
+    "rarity": "Epic",
+    "cost": 3,
+    "attack": 2,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
     ]
   }
 }
