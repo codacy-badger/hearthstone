@@ -5454,5 +5454,71 @@
     "mechanics": [
       "Deathrattle"
     ]
+  },
+  "Echoing Ooze": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_003",
+    "text": "<b>Battlecry:</b> Summon an exact copy of this minion at the end of the turn.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Shade of Naxxramas": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_005",
+    "text": "<b>Stealth.</b> At the start of your turn, gain +1/+1.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Stealth"
+    ]
+  },
+  "Kel'Thuzad": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "FP1_013",
+    "text": "At the end of each turn, summon all friendly minions that died this turn.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 8,
+    "attack": 6,
+    "health": 8,
+    "race": null,
+    "mechanics": null
+  },
+  "Avenge": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_020",
+    "text": "<b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Secret"
+    ]
   }
 }
