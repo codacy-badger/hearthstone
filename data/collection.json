@@ -5271,5 +5271,54 @@
       "Deathrattle",
       "Taunt"
     ]
+  },
+  "Baron Rivendare": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "FP1_031",
+    "text": "Your minions trigger their <b>Deathrattles</b> twice.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 4,
+    "attack": 1,
+    "health": 7,
+    "race": null,
+    "mechanics": [
+      "Aura"
+    ]
+  },
+  "Reincarnate": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_025",
+    "text": "Destroy a minion, then return it to life with full Health.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Voidcaller": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "FP1_022",
+    "text": "<b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 3,
+    "health": 4,
+    "race": "Demon",
+    "mechanics": [
+      "Deathrattle"
+    ]
   }
 }
