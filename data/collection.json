@@ -466,7 +466,7 @@
   "Deadly Shot": {
     "id": "EX1_617",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Destroy a random enemy minion.",
@@ -5567,6 +5567,55 @@
     "cost": 3,
     "attack": 2,
     "health": null,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Earth Shock": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_245",
+    "text": "<b>Silence</b> a minion, then deal $1 damage to it.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Silence"
+    ]
+  },
+  "Master Swordsmith": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "NEW1_037",
+    "text": "At the end of your turn, give another random friendly minion +1 Attack.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 1,
+    "health": 3,
+    "race": null,
+    "mechanics": null
+  },
+  "Priestess of Elune": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_583",
+    "text": "<b>Battlecry:</b> Restore 4 Health to your hero.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 6,
+    "attack": 5,
+    "health": 4,
     "race": null,
     "mechanics": [
       "Battlecry"
