@@ -1010,7 +1010,7 @@
     "id": "EX1_360",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Change a minion's Attack to 1.",
     "rarity": "Common",
@@ -3681,7 +3681,7 @@
   },
   "Lil' Exorcist": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_097",
@@ -5079,7 +5079,7 @@
   "Upgraded Repair Bot": {
     "amount": [
       1,
-      0
+      1
     ],
     "id": "GVG_083",
     "text": "<b>Battlecry:</b> Give a friendly Mech +4 Health.",
