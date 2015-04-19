@@ -5735,5 +5735,291 @@
     "mechanics": [
       "Deathrattle"
     ]
+  },
+  "Grim Patron": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_019",
+    "text": "Whenever this minion survives damage, summon another Grim Patron.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 3,
+    "health": 3,
+    "race": null,
+    "mechanics": null
+  },
+  "Gang Up": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_007",
+    "text": "Choose a minion. Shuffle 3 copies of it into your deck.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Resurrect": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_017",
+    "text": "Summon a random friendly minion that died this game.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Emperor Thaurissan": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "BRM_028",
+    "text": "At the end of your turn, reduce the Cost of cards in your hand by (1).",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 5,
+    "health": 5,
+    "race": null,
+    "mechanics": null
+  },
+  "Quick Shot": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_013",
+    "text": "Deal $3 damage.\nIf your hand is empty, draw a card.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "AffectedBySpellPower"
+    ]
+  },
+  "Dragon's Breath": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_003",
+    "text": "Deal $4 damage. Costs (1) less for each minion that died this turn.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Druid of the Flame": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_010",
+    "text": "<b>Choose One</b> - Transform into a 5/2 minion; or a 2/5 minion.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "race": null,
+    "mechanics": null
+  },
+  "Blackwing Technician": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_033",
+    "text": "<b>Battlecry:</b> If you're holding a Dragon, gain +1/+1.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Imp Gang Boss": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_006",
+    "text": "Whenever this minion takes damage, summon a 1/1 Imp.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "race": "Demon",
+    "mechanics": null
+  },
+  "Majordomo Executus": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "BRM_027",
+    "text": "<b>Deathrattle:</b> Replace your hero with Ragnaros, the Firelord.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 9,
+    "attack": 9,
+    "health": 7,
+    "race": null,
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Axe Flinger": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_016",
+    "text": "Whenever this minion takes damage, deal 2 damage to the enemy hero.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 2,
+    "health": 5,
+    "race": null,
+    "mechanics": null
+  },
+  "Lava Shock": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_011",
+    "text": "Deal $2 damage.\nUnlock your <b>Overloaded</b> Mana Crystals.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Core Rager": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_014",
+    "text": "<b>Battlecry:</b> If your hand is empty, gain +3/+3.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "race": "Beast",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Dragon Consort": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_018",
+    "text": "<b>Battlecry:</b> The next Dragon you play costs (2) less.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "race": "Dragon",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Dragon Egg": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_022",
+    "text": "Whenever this minion takes damage, summon a 2/1 Whelp.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 1,
+    "attack": 0,
+    "health": 2,
+    "race": null,
+    "mechanics": null
+  },
+  "Rend Blackhand": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "BRM_029",
+    "text": "<b>Battlecry:</b> If you're holding a Dragon, destroy a <b>Legendary</b> minion.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 8,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Twilight Whelp": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_004",
+    "text": "<b>Battlecry:</b> If you're holding a Dragon, gain +2 Health.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
+    "race": "Dragon",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Volcanic Lumberer": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_009",
+    "text": "<b>Taunt</b>\nCosts (1) less for each minion that died this turn.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 9,
+    "attack": 7,
+    "health": 8,
+    "race": null,
+    "mechanics": [
+      "Taunt"
+    ]
   }
 }
