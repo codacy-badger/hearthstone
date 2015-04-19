@@ -5669,5 +5669,71 @@
     "mechanics": [
       "AffectedBySpellPower"
     ]
+  },
+  "Mistress of Pain": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_018",
+    "text": "Whenever this minion deals damage, restore that much Health to your hero.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 1,
+    "health": 4,
+    "race": "Demon",
+    "mechanics": null
+  },
+  "Force-Tank MAX": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_079",
+    "text": "<b>Divine Shield</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 8,
+    "attack": 7,
+    "health": 7,
+    "race": "Mech",
+    "mechanics": [
+      "Divine Shield"
+    ]
+  },
+  "Seal of Light": {
+    "amount": [
+      0,
+      1
+    ],
+    "id": "GVG_057",
+    "text": "Restore #4 Health to your hero and gain +2 Attack this turn.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "ImmuneToSpellpower"
+    ]
+  },
+  "Piloted Shredder": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_096",
+    "text": "<b>Deathrattle:</b> Summon a random 2-Cost minion.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 4,
+    "health": 3,
+    "race": "Mech",
+    "mechanics": [
+      "Deathrattle"
+    ]
   }
 }
