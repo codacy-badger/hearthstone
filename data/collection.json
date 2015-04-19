@@ -769,7 +769,7 @@
     "id": "CS2_026",
     "amount": [
       2,
-      1
+      2
     ],
     "text": "<b>Freeze</b> all enemy minions.",
     "rarity": "Common",
@@ -882,7 +882,7 @@
     "id": "GVG_004",
     "amount": [
       1,
-      0
+      1
     ],
     "text": "<b>Battlecry:</b> If you have a Mech, deal 4 damage randomly split among all enemies.",
     "rarity": "Rare",
@@ -5523,7 +5523,7 @@
   },
   "Snowchugger": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_002",
@@ -5635,5 +5635,39 @@
     "health": 5,
     "race": "Mech",
     "mechanics": null
+  },
+  "Druid of the Fang": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_080",
+    "text": "<b>Battlecry:</b> If you have a Beast, transform this minion into a 7/7.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Lightbomb": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_008",
+    "text": "Deal damage to each minion equal to its Attack.",
+    "type": "Spell",
+    "rarity": "Epic",
+    "cost": 6,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "AffectedBySpellPower"
+    ]
   }
 }
