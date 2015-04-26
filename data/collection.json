@@ -6021,5 +6021,118 @@
     "mechanics": [
       "Taunt"
     ]
+  },
+  "Revenge": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_015",
+    "text": "Deal $1 damage to all minions. If you have 12 or less Health, deal $3 damage instead.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Flamewaker": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_002",
+    "text": "After you cast a spell, deal 2 damage randomly split among all enemies.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": null
+  },
+  "Hungry Dragon": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_026",
+    "text": "<b>Battlecry:</b> Summon a random 1-Cost minion for your opponent.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 5,
+    "health": 6,
+    "race": "Dragon",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Fireguard Destroyer": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_012",
+    "text": "<b>Battlecry:</b> Gain 1-4 Attack. <b>Overload:</b> (1)",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 3,
+    "health": 6,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Chromaggus": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "BRM_031",
+    "text": "Whenever you draw a card, put another copy into your hand.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 8,
+    "attack": 6,
+    "health": 8,
+    "race": "Dragon",
+    "mechanics": null
+  },
+  "Demonwrath": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_005",
+    "text": "Deal $2 damage to all non-Demon minions.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "AffectedBySpellPower"
+    ]
+  },
+  "Dark Iron Skulker": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_008",
+    "text": "<b>Battlecry:</b> Deal 2 damage to all undamaged enemy minions.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 4,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
   }
 }
