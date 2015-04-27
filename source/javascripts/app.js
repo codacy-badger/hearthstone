@@ -10,7 +10,7 @@
     collection.cards = [];
 
     // retrieve card data
-    $http.get('/collection.json').success(function (data) {
+    $http.get('collection.json').success(function (data) {
 
       // build out cards
       angular.forEach(data, function (value, key) {
