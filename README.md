@@ -34,6 +34,15 @@ and then check out the site at [localhost:4567](http://localhost:4567).
 
     $ bin/rake publish
 
+## Adding Cards
+
+To add cards to your collection,
+
+    $ bin/rake collection:edit
+
+There are other useful Rake tasks for building out and adding to
+`collection.json`, so check them out!
+
 ### Caveats
 
 If your directory is dirty, `git stash` before deploying.
@@ -50,4 +59,4 @@ server after making changes to `config.rb`.
 
 ## License
 
-See LICENSE for details.
+See LICENSE for details. Hearthstone is &copy; Blizzard Entertainment.
