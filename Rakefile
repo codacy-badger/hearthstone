@@ -3,6 +3,9 @@ require 'mini_magick'
 require 'open-uri'
 require 'json'
 
+require 'jasmine'
+load 'jasmine/tasks/jasmine.rake'
+
 @raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
 @dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
 @collection_filepath = File.expand_path("./../data/collection.json", __FILE__)

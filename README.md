@@ -30,13 +30,21 @@ Fire up
 
 and then check out the site at [localhost:4567](http://localhost:4567).
 
+## Testing
+
+For now, check out [localhost:4567/jasmine](http://localhost:4567/jasmine) to
+see the results of Jasmine tests.
+
+Jasmine Rake tasks are currently not functioning, but I hope to get them
+up-and-running at some point.
+
 ## Deployment
 
     $ bin/rake publish
 
 ## Adding Cards
 
-To add cards to your collection,
+To add cards to your collection:
 
     $ bin/rake collection:edit
 

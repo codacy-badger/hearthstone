@@ -43,6 +43,12 @@ GEM
       uber (~> 0.0.4)
     http_parser.rb (0.6.0)
     i18n (0.6.11)
+    jasmine (2.0.3)
+      jasmine-core (~> 2.0.0)
+      phantomjs
+      rack (>= 1.2.1)
+      rake
+    jasmine-core (2.0.2)
     json (1.8.1)
     kramdown (1.5.0)
     listen (2.8.4)
@@ -74,6 +80,9 @@ GEM
       tilt (~> 1.4.1, < 2.0)
     middleman-gh-pages (0.0.3)
       rake (> 0.9.3)
+    middleman-jasmine (0.5.1)
+      jasmine (~> 2.0.0)
+      middleman (~> 3.3.2)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -93,6 +102,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.4)
       activesupport (>= 3.1)
+    phantomjs (1.9.8.0)
     rack (1.6.0)
     rack-livereload (0.3.15)
       rack
@@ -132,6 +142,7 @@ DEPENDENCIES
   bootstrap-sass
   middleman (~> 3.3.7)
   middleman-gh-pages
+  middleman-jasmine
   middleman-livereload (~> 3.1.0)
   mini_magick
   tzinfo-data

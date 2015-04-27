@@ -41,6 +41,9 @@ helpers ImageHelpers
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+
+  activate :jasmine
+  sprockets.append_path File.join root, "spec"
 end
 
 set :css_dir, "stylesheets"
