@@ -2498,7 +2498,7 @@
   "Armorsmith": {
     "id": "EX1_402",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Whenever a friendly minion takes damage, gain 1 Armor.",
