@@ -4,7 +4,7 @@ title: Welcome to Hearthstone!
 
 <header>
   <div id="search">
-    <input type="text" id="search" placeholder="Search" ng-model="search" ng-init="search = ''"></input>
+    <input type="text" id="search" placeholder="Search" autofocus ng-model="search" ng-init="search = ''"></input>
   </div>
 
   <h1>My Hearthstone Collection</h1>
@@ -16,7 +16,7 @@ title: Welcome to Hearthstone!
 </div>
 
 <div id="cards" ng-controller="CollectionController as collection">
-  <div ng-repeat="card in collection.cards | orderBy:'name'" class="card" ng-class="card.rarity | lowercase" ng-show="card.name.toLowerCase().indexOf(search.toLowerCase()) > -1">
+  <div ng-repeat="card in collection.cards | orderBy:'name'" class="card" ng-class="card.rarity | lowercase" ng-show="card | searchBy:search">
     <div class="mana">{{card.cost}}</div>
     <div class="amount">x{{card.amount[0]}}</div>
     <div class="amount golden">x{{card.amount[1]}}</div>

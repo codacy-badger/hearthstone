@@ -43,6 +43,20 @@
     };
   });
 
+  app.filter('searchBy', function () {
+    return function (card, searchTerm) {
+      var matchesName = card.name.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
+      var matchesRarity = card.rarity.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
+
+      var matchesKind = false;
+      if (card.race !== null) {
+        matchesKind = card.race.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
+      }
+
+      return matchesName || matchesKind || matchesRarity;
+    };
+  });
+
   app.filter('removeSpellDamage', function () {
     return function (input) {
       input = input || '';
