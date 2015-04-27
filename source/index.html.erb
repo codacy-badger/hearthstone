@@ -4,19 +4,29 @@ title: Welcome to Hearthstone!
 
 <header>
   <div id="search">
-    <input type="text" id="search" placeholder="Search"></input>
+    <input type="text" id="search" placeholder="Search" ng-model="search"></input>
   </div>
 
   <h1>My Hearthstone Collection</h1>
-  <h4>Want to make your own? <a href="https://github.com/bergren2/hearthstone">Fork this repo.</a></h4>
+  <h4>Want to make your own? <a href="https://github.com/bergren2/hearthstone" target="_blank">Fork this repo.</a></h4>
 </header>
 
 <div id="loading">
   <div class="progress"></div>
 </div>
 
-<div id="cards">
-  <% data.collection.each do |name, card_data| %>
-    <%= card_tag name, card_data %>
-  <% end %>
+<div id="cards" ng-controller="CollectionController as collection">
+  <div ng-repeat="card in collection.cards | orderBy:'name'" class="card" ng-class="card.rarity | lowercase" ng-show="card.name.toLowerCase().indexOf(search.toLowerCase()) > -1">
+    <div class="mana">{{card.cost}}</div>
+    <div class="amount">x{{card.amount[0]}}</div>
+    <div class="amount golden">x{{card.amount[1]}}</div>
+    <div class="name">{{card.name}}</div>
+
+    <img ng-src="images/cards/{{card.id}}.png" imageonload />
+
+    <div class="info" ng-bind-html="card.text | removeSpellDamage"></div>
+    <div class="attack" ng-show="collection.isMinion(card)">{{card.attack}}</div>
+    <div class="health" ng-show="collection.isMinion(card)">{{card.health}}</div>
+    <div class="race">{{card.race}}</div>
+  </div>
 </div>

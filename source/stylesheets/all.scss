@@ -46,6 +46,8 @@ header {
 #cards {
   position: relative;
   top: 110px;
+  line-height: 0;
+  letter-spacing: 0;
 }
 
 #search {
@@ -56,6 +58,7 @@ header {
   height: 70px;
   font-size: 56px;
   line-height: 70px;
+  padding: 0 10px;
 
   input {
     width: inherit;
@@ -65,12 +68,14 @@ header {
 
 .card {
   background: #aaa; // default
-  width: 300px;
+  width: 280px;
   height: 150px;
   position: relative;
   display: inline-block;
   overflow: hidden; // TODO hack to prevent random images from spilling over
   border-right: 5px solid gray;
+  border-radius: 10px;
+  margin: 5px;
 
   &.common {
     border-color: #b5c6dd;
@@ -99,10 +104,8 @@ header {
     transition: opacity 5s;
     top: 25px;
     left: 0;
-  }
 
-  &.loaded {
-    img {
+    &.loaded {
       opacity: 1;
     }
   }
@@ -121,10 +124,10 @@ header {
   }
 
   .name, .info, .race {
-    width: 200px;
+    width: 180px;
     height: 25px;
     line-height: 25px;
-    padding: 0 5px;
+    padding: 0 8px;
     display: inline-block;
     text-align: left;
   }
@@ -164,6 +167,8 @@ header {
     top: 25px;
     left: 100px;
     background: #ccc;
+    line-height: 20px;
+    padding: 4px 8px;
   }
 
   .name {
