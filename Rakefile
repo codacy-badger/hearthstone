@@ -1,10 +1,13 @@
+# for editing the collection
 require 'middleman-gh-pages'
 require 'mini_magick'
 require 'open-uri'
 require 'json'
 
-require 'jasmine'
-load 'jasmine/tasks/jasmine.rake'
+# for tests
+require 'middleman'
+require 'middleman-jasmine'
+require 'middleman/jasmine/tasks'
 
 @raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
 @dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
