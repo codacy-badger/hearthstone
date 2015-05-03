@@ -32,11 +32,11 @@ and then check out the site at [localhost:4567](http://localhost:4567).
 
 ## Testing
 
-For now, check out [localhost:4567/jasmine](http://localhost:4567/jasmine) to
-see the results of Jasmine tests.
+[![Build Status](https://travis-ci.org/bergren2/hearthstone.svg?branch=master)](https://travis-ci.org/bergren2/hearthstone)
 
-Jasmine Rake tasks are currently not functioning, but I hope to get them
-up-and-running at some point.
+Check out [localhost:4567/jasmine](http://localhost:4567/jasmine) to
+see the results of Jasmine tests, or run `bin/rake` to run the tests run by
+Travis.
 
 ## Deployment
 
