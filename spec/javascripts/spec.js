@@ -1,7 +1,3 @@
-//= require ./../../source/javascripts/app
-//= require ./../../bower_components/angular-mocks/angular-mocks
-//= require_tree .
-
 describe('CollectionController', function () {
   beforeEach(module('hearthstone'));
 

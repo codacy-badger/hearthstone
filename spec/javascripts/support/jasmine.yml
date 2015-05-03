@@ -11,7 +11,10 @@
 #   - dist/**/*.js
 #
 src_files:
-  - public/javascripts/**/*.js
+  - bower_components/angular/angular.js
+  - bower_components/angular-sanitize/angular-sanitize.js
+  - bower_components/angular-mocks/angular-mocks.js
+  - source/javascripts/*.js
 
 # stylesheets
 #

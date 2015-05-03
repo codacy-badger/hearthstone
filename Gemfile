@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.7"
+gem "middleman", "~>4.0.0.beta.1"
 gem "bootstrap-sass", require: false
 gem "mini_magick"
 
@@ -14,7 +14,7 @@ gem "wdm", "~> 0.1.0", platforms: [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Tests
-gem 'middleman-jasmine'
+gem 'jasmine'
 
 # For deployment
 gem "middleman-gh-pages"

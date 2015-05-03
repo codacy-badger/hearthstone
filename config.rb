@@ -42,7 +42,6 @@ helpers ImageHelpers
 configure :development do
   activate :livereload
 
-  activate :jasmine
   sprockets.append_path File.join root, "spec"
 end
 

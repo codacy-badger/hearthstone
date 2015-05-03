@@ -5,9 +5,8 @@ require 'open-uri'
 require 'json'
 
 # for tests
-require 'middleman'
-require 'middleman-jasmine'
-require 'middleman/jasmine/tasks'
+require 'jasmine'
+load 'jasmine/tasks/jasmine.rake'
 
 @raw_filepath = File.expand_path("./../data/cards_raw.json", __FILE__)
 @dict_filepath = File.expand_path("./../data/cards_dictionary.json", __FILE__)
@@ -194,7 +193,7 @@ namespace :collection do
 end
 
 task :travis do
-  ["rake middleman_jasmine:ci"].each do |cmd|
+  ["rake jasmine:ci"].each do |cmd|
     puts "Starting to run #{cmd}..."
     system("export DISPLAY=:99.0 && bundle exec #{cmd}")
     raise "#{cmd} failed!" unless $?.exitstatus == 0
