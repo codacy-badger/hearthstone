@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>4.0.0.beta.1"
+gem "middleman", "~>3.3.11"
 gem "bootstrap-sass", require: false
 gem "mini_magick"
 
