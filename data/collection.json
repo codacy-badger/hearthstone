@@ -687,7 +687,7 @@
   "Flamecannon": {
     "id": "GVG_001",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Deal $4 damage to a random enemy minion.",
@@ -5078,7 +5078,7 @@
   },
   "Upgraded Repair Bot": {
     "amount": [
-      1,
+      2,
       1
     ],
     "id": "GVG_083",
@@ -5687,7 +5687,7 @@
   },
   "Force-Tank MAX": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_079",
@@ -6183,5 +6183,20 @@
     "mechanics": [
       "Battlecry"
     ]
+  },
+  "Junkbot": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_106",
+    "text": "Whenever a friendly Mech dies, gain +2/+2.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 5,
+    "attack": 1,
+    "health": 5,
+    "race": "Mech",
+    "mechanics": null
   }
 }
