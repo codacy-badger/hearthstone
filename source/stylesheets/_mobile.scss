@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+  header {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  #search {
+    position: static;
+    width: 100%;
+  }
+
+  #cards {
+    top: 170px; // magic number
+  }
+}
+
+@media (max-width: 480px) {
+  #cards {
+    top: 210px; // magic number
+  }
+}
