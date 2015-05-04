@@ -6198,5 +6198,52 @@
     "health": 5,
     "race": "Mech",
     "mechanics": null
+  },
+  "Dragonkin Sorcerer": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_020",
+    "text": "Whenever you target this minion with a spell, gain +1/+1.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "race": "Dragon",
+    "mechanics": null
+  },
+  "Nefarian": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "BRM_030",
+    "text": "<b>Battlecry:</b> Add 2 random spells to your hand <i>(from your opponent's class)</i>.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 9,
+    "attack": 8,
+    "health": 8,
+    "race": "Dragon",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Solemn Vigil": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "BRM_001",
+    "text": "Draw 2 cards. Costs (1) less for each minion that died this turn.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
   }
 }
