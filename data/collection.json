@@ -6245,5 +6245,20 @@
     "health": null,
     "race": null,
     "mechanics": null
+  },
+  "Grove Tender": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_032",
+    "text": "<b>Choose One -</b> Give each player a Mana Crystal; or Each player draws a card.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": null
   }
 }
