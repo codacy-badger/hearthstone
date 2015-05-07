@@ -1398,7 +1398,7 @@
   "Shadow Madness": {
     "id": "EX1_334",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Gain control of an enemy minion with 3 or less Attack until end of turn.",
@@ -4646,7 +4646,7 @@
   },
   "Crackle": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_038",
