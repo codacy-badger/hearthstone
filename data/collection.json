@@ -1262,7 +1262,7 @@
     "id": "CS1_130",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Deal $2 damage.",
     "rarity": "Free",
@@ -5721,7 +5721,7 @@
   },
   "Piloted Shredder": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_096",
