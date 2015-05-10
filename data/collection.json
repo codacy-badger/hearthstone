@@ -1413,7 +1413,7 @@
   "Lightspawn": {
     "id": "EX1_335",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "This minion's Attack is always equal to its Health.",
