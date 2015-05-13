@@ -2576,7 +2576,7 @@
     "id": "EX1_606",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Gain 5 Armor.\nDraw a card.",
     "rarity": "Common",
@@ -3665,7 +3665,7 @@
   "Jungle Panther": {
     "amount": [
       2,
-      0
+      1
     ],
     "id": "EX1_017",
     "text": "<b>Stealth</b>",
@@ -4317,7 +4317,7 @@
   "Spiteful Smith": {
     "amount": [
       2,
-      1
+      2
     ],
     "id": "CS2_221",
     "text": "<b>Enrage:</b> Your weapon has +2 Attack.",
@@ -4771,7 +4771,7 @@
   },
   "Silence": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_332",
@@ -6260,5 +6260,105 @@
     "health": 4,
     "race": null,
     "mechanics": null
+  },
+  "Sunfury Protector": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_058",
+    "text": "<b>Battlecry:</b> Give adjacent minions <b>Taunt</b>.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Silver Hand Knight": {
+    "amount": [
+      1,
+      1
+    ],
+    "id": "CS2_151",
+    "text": "<b>Battlecry:</b> Summon a 2/2 Squire.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Ice Block": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_295",
+    "text": "<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.",
+    "type": "Spell",
+    "rarity": "Epic",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Secret"
+    ]
+  },
+  "Headcrack": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_137",
+    "text": "Deal $2 damage to the enemy hero. <b>Combo:</b> Return this to your hand next turn.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Combo"
+    ]
+  },
+  "Lightning Storm": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_259",
+    "text": "Deal $2-$3 damage to all enemy minions. <b>Overload:</b> (2)",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Ravenholdt Assassin": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "CS2_161",
+    "text": "<b>Stealth</b>",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 7,
+    "attack": 7,
+    "health": 5,
+    "race": null,
+    "mechanics": [
+      "Stealth"
+    ]
   }
 }
