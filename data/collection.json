@@ -2483,7 +2483,7 @@
   "Slam": {
     "id": "EX1_391",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Deal $2 damage to a minion. If it survives, draw a card.",
@@ -6360,5 +6360,20 @@
     "mechanics": [
       "Stealth"
     ]
+  },
+  "Explosive Shot": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_537",
+    "text": "Deal $5 damage to a minion and $2 damage to adjacent ones.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
   }
 }
