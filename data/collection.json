@@ -47,7 +47,7 @@
   "Naturalize": {
     "id": "EX1_161",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Destroy a minion. Your opponent draws 2 cards.",
@@ -229,7 +229,7 @@
   "Starfall": {
     "id": "NEW1_007",
     "amount": [
-      0,
+      1,
       1
     ],
     "text": "<b>Choose One -</b> Deal $5 damage to a minion; or $2 damage to all enemy minions.",
@@ -2151,7 +2151,7 @@
     "id": "CS2_065",
     "amount": [
       2,
-      1
+      2
     ],
     "text": "<b>Taunt</b>",
     "rarity": "Free",
@@ -2309,7 +2309,7 @@
   "Imp-losion": {
     "id": "GVG_045",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Deal $2-$4 damage to a minion. Summon a 1/1 Imp for each damage dealt.",
@@ -4582,7 +4582,7 @@
   },
   "Blessing of Wisdom": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_363",
@@ -6375,5 +6375,70 @@
     "health": null,
     "race": null,
     "mechanics": null
+  },
+  "Nourish": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_164",
+    "text": "<b>Choose One</b> - Gain 2 Mana Crystals; or Draw 3 cards.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Shadowflame": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_303",
+    "text": "Destroy a friendly minion and deal its Attack damage to all enemy minions.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "AffectedBySpellPower"
+    ]
+  },
+  "Wisp": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "CS2_231",
+    "text": null,
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 0,
+    "attack": 1,
+    "health": 1,
+    "race": null,
+    "mechanics": null
+  },
+  "Perdition's Blade": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_133",
+    "text": "<b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead.",
+    "type": "Weapon",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 2,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Battlecry",
+      "Combo"
+    ]
   }
 }
