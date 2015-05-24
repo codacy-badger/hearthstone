@@ -4885,7 +4885,7 @@
   "Floating Watcher": {
     "amount": [
       2,
-      0
+      1
     ],
     "id": "GVG_100",
     "text": "Whenever your hero takes damage on your turn, gain +2/+2.",
@@ -6440,5 +6440,35 @@
       "Battlecry",
       "Combo"
     ]
+  },
+  "Stonesplinter Trogg": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_067",
+    "text": "Whenever your opponent casts a spell, gain +1 Attack.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "race": null,
+    "mechanics": null
+  },
+  "Steamwheedle Sniper": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_087",
+    "text": "Your Hero Power can target minions.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "race": null,
+    "mechanics": null
   }
 }
