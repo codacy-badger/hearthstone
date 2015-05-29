@@ -2719,7 +2719,7 @@
   },
   "Bloodsail Corsair": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "NEW1_025",
@@ -6468,6 +6468,51 @@
     "cost": 2,
     "attack": 2,
     "health": 3,
+    "race": null,
+    "mechanics": null
+  },
+  "Molten Giant": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "EX1_620",
+    "text": "Costs (1) less for each damage your hero has taken.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 20,
+    "attack": 8,
+    "health": 8,
+    "race": null,
+    "mechanics": null
+  },
+  "Inner Rage": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_607",
+    "text": "Deal $1 damage to a minion and give it +2 Attack.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 0,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Young Priestess": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_004",
+    "text": "At the end of your turn, give another random friendly minion +1 Health.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 1,
+    "attack": 2,
+    "health": 1,
     "race": null,
     "mechanics": null
   }
