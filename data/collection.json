@@ -107,7 +107,7 @@
   "Wrath": {
     "id": "EX1_154",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "<b>Choose One</b> - Deal $3 damage to a minion; or $1 damage and draw a card.",
