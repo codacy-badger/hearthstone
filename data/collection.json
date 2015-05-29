@@ -657,7 +657,7 @@
   "Mana Wyrm": {
     "id": "NEW1_012",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Whenever you cast a spell, gain +1 Attack.",
