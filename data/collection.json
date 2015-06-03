@@ -5574,7 +5574,7 @@
   },
   "Earth Shock": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_245",
@@ -6515,5 +6515,22 @@
     "health": 1,
     "race": null,
     "mechanics": null
+  },
+  "Mana Wraith": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_616",
+    "text": "ALL minions cost (1) more.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Aura"
+    ]
   }
 }
