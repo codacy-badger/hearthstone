@@ -1197,7 +1197,7 @@
   "Holy Wrath": {
     "id": "EX1_365",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Draw a card and deal damage equal to its cost.",
@@ -6425,7 +6425,7 @@
   },
   "Perdition's Blade": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_133",
