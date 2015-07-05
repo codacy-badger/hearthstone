@@ -352,7 +352,7 @@
     "id": "DS1_175",
     "amount": [
       2,
-      1
+      2
     ],
     "text": "Your other Beasts have +1 Attack.",
     "rarity": "Free",
@@ -4112,7 +4112,7 @@
   },
   "Twilight Drake": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_043",
@@ -6535,7 +6535,7 @@
   },
   "Master of Disguise": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "NEW1_014",
@@ -6566,5 +6566,37 @@
     "mechanics": [
       "Battlecry"
     ]
+  },
+  "Mind Control Tech": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_085",
+    "text": "<b>Battlecry:</b> If your opponent has 4 or more minions, take control of one at random.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Thoughtsteal": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_339",
+    "text": "Copy 2 cards from your opponent's deck and put them into your hand.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
   }
 }
