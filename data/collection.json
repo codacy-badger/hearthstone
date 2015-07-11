@@ -1088,7 +1088,7 @@
   "Argent Protector": {
     "id": "EX1_362",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "<b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.",
@@ -5125,7 +5125,7 @@
   },
   "Venture Co. Mercenary": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "CS2_227",
@@ -6598,5 +6598,22 @@
     "health": null,
     "race": null,
     "mechanics": null
+  },
+  "Harrison Jones": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_558",
+    "text": "<b>Battlecry:</b> Destroy your opponent's weapon and draw cards equal to its Durability.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 5,
+    "attack": 5,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
   }
 }
