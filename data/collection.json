@@ -658,7 +658,7 @@
     "id": "NEW1_012",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Whenever you cast a spell, gain +1 Attack.",
     "rarity": "Common",
@@ -2900,7 +2900,7 @@
   },
   "Worgen Infiltrator": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_010",
@@ -6615,5 +6615,20 @@
     "mechanics": [
       "Battlecry"
     ]
+  },
+  "Sea Giant": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_586",
+    "text": "Costs (1) less for each other minion on the battlefield.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 10,
+    "attack": 8,
+    "health": 8,
+    "race": null,
+    "mechanics": null
   }
 }
