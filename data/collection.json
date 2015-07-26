@@ -2576,7 +2576,7 @@
     "id": "EX1_606",
     "amount": [
       2,
-      1
+      2
     ],
     "text": "Gain 5 Armor.\nDraw a card.",
     "rarity": "Common",
@@ -3848,7 +3848,7 @@
   },
   "Ancient Brewmaster": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_057",
@@ -6314,7 +6314,7 @@
   },
   "Headcrack": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_137",
