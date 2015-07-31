@@ -33,7 +33,7 @@
     "id": "CS2_005",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Give your hero +2 Attack this turn and 2 Armor.",
     "rarity": "Free",
@@ -3514,7 +3514,7 @@
   },
   "Flesheating Ghoul": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "tt_004",
@@ -6630,5 +6630,37 @@
     "health": 8,
     "race": null,
     "mechanics": null
+  },
+  "Keeper of the Grove": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_166",
+    "text": "<b>Choose One</b> - Deal 2 damage; or <b>Silence</b> a minion.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": null
+  },
+  "Argent Squire": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_008",
+    "text": "<b>Divine Shield</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "race": null,
+    "mechanics": [
+      "Divine Shield"
+    ]
   }
 }
