@@ -1897,7 +1897,7 @@
   "Stormforged Axe": {
     "id": "EX1_247",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "<b>Overload:</b> (1)",
@@ -4399,7 +4399,7 @@
   },
   "Frost Elemental": {
     "amount": [
-      0,
+      1,
       1
     ],
     "id": "EX1_283",
@@ -6569,7 +6569,7 @@
   },
   "Mind Control Tech": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_085",
@@ -6586,7 +6586,7 @@
   },
   "Thoughtsteal": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_339",
@@ -6661,6 +6661,87 @@
     "race": null,
     "mechanics": [
       "Divine Shield"
+    ]
+  },
+  "Battle Rage": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_392",
+    "text": "Draw a card for each damaged friendly character.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Pint-Sized Summoner": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_076",
+    "text": "The first minion you play each turn costs (1) less.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Aura"
+    ]
+  },
+  "Dread Corsair": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "NEW1_022",
+    "text": "<b>Taunt.</b> Costs (1) less per Attack of your weapon.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 3,
+    "health": 3,
+    "race": "Pirate",
+    "mechanics": [
+      "Taunt"
+    ]
+  },
+  "Frothing Berserker": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_604",
+    "text": "Whenever a minion takes damage, gain +1 Attack.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": null
+  },
+  "Blood Knight": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_590",
+    "text": "<b>Battlecry:</b> All minions lose <b>Divine Shield</b>. Gain +3/+3 for each Shield lost.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
     ]
   }
 }
