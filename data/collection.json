@@ -6758,5 +6758,39 @@
     "health": 2,
     "race": "Beast",
     "mechanics": null
+  },
+  "Scarlet Purifier": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_101",
+    "text": "<b>Battlecry</b>: Deal 2 damage to all minions with <b>Deathrattle</b>.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Arcane Nullifier X-21": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "GVG_091",
+    "text": "<b>Taunt</b>\nCan't be targeted by spells or Hero Powers.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 2,
+    "health": 5,
+    "race": "Mech",
+    "mechanics": [
+      "Taunt"
+    ]
   }
 }
