@@ -3598,7 +3598,7 @@
   },
   "Imp Master": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_597",
@@ -6410,7 +6410,7 @@
   },
   "Wisp": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "CS2_231",
@@ -6743,5 +6743,20 @@
     "mechanics": [
       "Battlecry"
     ]
+  },
+  "Scavenging Hyena": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_531",
+    "text": "Whenever a friendly Beast dies, gain +2/+1.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 2,
+    "race": "Beast",
+    "mechanics": null
   }
 }
