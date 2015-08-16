@@ -609,7 +609,7 @@
     "id": "EX1_277",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Deal $3 damage randomly split among enemy characters.",
     "rarity": "Free",
