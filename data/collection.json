@@ -1992,7 +1992,7 @@
   "Unbound Elemental": {
     "id": "EX1_258",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "Whenever you play a card with <b>Overload</b>, gain +1/+1.",
@@ -4146,7 +4146,7 @@
   },
   "Azure Drake": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_284",
@@ -6792,5 +6792,20 @@
     "mechanics": [
       "Taunt"
     ]
+  },
+  "Commanding Shout": {
+    "amount": [
+      0,
+      1
+    ],
+    "id": "NEW1_036",
+    "text": "Your minions can't be reduced below 1 Health this turn. Draw a card.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
   }
 }
