@@ -1262,7 +1262,7 @@
     "id": "CS1_130",
     "amount": [
       2,
-      1
+      2
     ],
     "text": "Deal $2 damage.",
     "rarity": "Free",
@@ -2341,7 +2341,7 @@
   "Doomguard": {
     "id": "EX1_310",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.",
@@ -3912,7 +3912,7 @@
   },
   "Defender of Argus": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_093",
