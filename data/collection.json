@@ -6807,5 +6807,755 @@
     "health": null,
     "race": null,
     "mechanics": null
+  },
+  "Lowly Squire": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_082",
+    "text": "<b>Inspire:</b> Gain +1 Attack.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": 1,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Tournament Medic": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_091",
+    "text": "<b>Inspire:</b> Restore 2 Health to your hero.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 1,
+    "health": 8,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Warhorse Trainer": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_075",
+    "text": "Your Silver Hand Recruits have +1 Attack.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Aura"
+    ]
+  },
+  "Convert": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_015",
+    "text": "Put a copy of an enemy minion into your hand.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Wrathguard": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_026",
+    "text": "Whenever this minion takes damage, also deal that amount to your hero.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 4,
+    "health": 3,
+    "race": "Demon",
+    "mechanics": null
+  },
+  "Evil Heckler": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_114",
+    "text": "<b>Taunt</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Taunt"
+    ]
+  },
+  "Dragonhawk Rider": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_083",
+    "text": "<b>Inspire:</b> Gain <b>Windfury</b>\nthis turn.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Clockwork Knight": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_096",
+    "text": "<b>Battlecry:</b> Give a friendly Mech +1/+1.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "race": "Mech",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Tuskarr Jouster": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_104",
+    "text": "<b>Battlecry:</b> Reveal a minion in each deck. If yours costs more, restore 7 Health to your hero.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Living Roots": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_037",
+    "text": "<b>Choose One</b> - Deal $2 damage; or Summon two 1/1 Saplings.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Druid of the Saber": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_042",
+    "text": "<b>Choose One -</b> Transform to gain <b>Charge</b>; or +1/+1 and <b>Stealth</b>.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 1,
+    "race": null,
+    "mechanics": null
+  },
+  "Mukla's Champion": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_090",
+    "text": "<b>Inspire:</b> Give your other minions +1/+1.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 4,
+    "health": 3,
+    "race": "Beast",
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Refreshment Vendor": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_111",
+    "text": "<b>Battlecry:</b> Restore 4 Health to each hero.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Healing Wave": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_048",
+    "text": "Restore #7 Health. Reveal a minion in each deck. If yours costs more, Restore #14 instead.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Argent Horserider": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_087",
+    "text": "<b>Charge</b>\n<b>Divine Shield</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 2,
+    "health": 1,
+    "race": null,
+    "mechanics": [
+      "Charge",
+      "Divine Shield"
+    ]
+  },
+  "Spawn of Shadows": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_012",
+    "text": "<b>Inspire:</b> Deal 4 damage to each hero.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 5,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Armored Warhorse": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_108",
+    "text": "<b>Battlecry:</b> Reveal a minion in each deck. If yours costs more, gain <b>Charge</b>.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 5,
+    "health": 3,
+    "race": "Beast",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Bash": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_064",
+    "text": "Deal $3 damage.\nGain 3 Armor.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Captured Jormungar": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_102",
+    "text": null,
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 7,
+    "attack": 5,
+    "health": 9,
+    "race": "Beast",
+    "mechanics": null
+  },
+  "Maiden of the Lake": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_085",
+    "text": "Your Hero Power costs (1).",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "race": null,
+    "mechanics": [
+      "Aura"
+    ]
+  },
+  "Ice Rager": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_092",
+    "text": null,
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 5,
+    "health": 2,
+    "race": null,
+    "mechanics": null
+  },
+  "Master Jouster": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_112",
+    "text": "<b>Battlecry:</b> Reveal a minion in each deck. If yours costs more, gain <b>Taunt</b> and <b>Divine Shield</b>.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 6,
+    "attack": 5,
+    "health": 6,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "King's Elekk": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_058",
+    "text": "<b>Battlecry:</b> Reveal a minion in each deck. If yours costs more, draw it.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "race": "Beast",
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Injured Kvaldir": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_105",
+    "text": "<b>Battlecry:</b> Deal 3 damage to this minion.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 1,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Flame Juggler": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_094",
+    "text": "<b>Battlecry:</b> Deal 1 damage to a random enemy.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "North Sea Kraken": {
+    "amount": [
+      0,
+      1
+    ],
+    "id": "AT_103",
+    "text": "<b>Battlecry:</b> Deal 4 damage.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 9,
+    "attack": 9,
+    "health": 7,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Coliseum Manager": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_110",
+    "text": "<b>Inspire:</b> Return this minion to your hand.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 2,
+    "health": 5,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Holy Champion": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_011",
+    "text": "Whenever a character is healed, gain +2 Attack.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "race": null,
+    "mechanics": null
+  },
+  "Boneguard Lieutenant": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_089",
+    "text": "<b>Inspire:</b> Gain +1 Health.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Effigy": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_002",
+    "text": "<b>Secret:</b> When a friendly minion dies, summon a random minion with the same Cost.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Secret"
+    ]
+  },
+  "Lock and Load": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_061",
+    "text": "Each time you cast a spell this turn, add a random Hunter card to your hand.",
+    "type": "Spell",
+    "rarity": "Epic",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Silver Hand Regent": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_100",
+    "text": "<b>Inspire:</b> Summon a 1/1 Silver Hand Recruit.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Bear Trap": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_060",
+    "text": "<b>Secret:</b> After your hero is attacked, summon a 3/3 Bear with <b>Taunt</b>.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Secret"
+    ]
+  },
+  "Undercity Valiant": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_030",
+    "text": "<b>Combo:</b> Deal 1 damage.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 3,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Combo"
+    ]
+  },
+  "Totem Golem": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_052",
+    "text": "<b>Overload: (1)</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 3,
+    "health": 4,
+    "race": "Totem",
+    "mechanics": null
+  },
+  "Silent Knight": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_095",
+    "text": "<b>Stealth</b>\n<b>Divine Shield</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 2,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Divine Shield",
+      "Stealth"
+    ]
+  },
+  "Seal of Champions": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_074",
+    "text": "Give a minion\n+3 Attack and <b>Divine Shield</b>.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Argent Watchman": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_109",
+    "text": "Can't attack.\n<b>Inspire:</b> Can attack as normal this turn.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 2,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Mogor's Champion": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_088",
+    "text": "50% chance to attack the wrong enemy.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 6,
+    "attack": 8,
+    "health": 5,
+    "race": null,
+    "mechanics": null
+  },
+  "Kvaldir Raider": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_119",
+    "text": "<b>Inspire:</b> Gain +2/+2.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Orgrimmar Aspirant": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_066",
+    "text": "<b>Inspire:</b> Give your weapon +1 Attack.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Knight of the Wild": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_041",
+    "text": "Whenever you summon a Beast, reduce the Cost of this card by (1).",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 7,
+    "attack": 6,
+    "health": 6,
+    "race": null,
+    "mechanics": null
+  },
+  "Gormok the Impaler": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_122",
+    "text": "<b>Battlecry:</b> If you have at least 4 other minions, deal 4 damage.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Demonfuse": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_024",
+    "text": "Give a Demon +3/+3. Give your opponent a Mana Crystal.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": "Demon",
+    "mechanics": null
+  },
+  "Fearsome Doomguard": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_020",
+    "text": null,
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 7,
+    "attack": 6,
+    "health": 8,
+    "race": "Demon",
+    "mechanics": null
+  },
+  "Powershot": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_056",
+    "text": "Deal $2 damage to a minion and the minions next to it.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
   }
 }
