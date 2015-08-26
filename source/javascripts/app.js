@@ -45,12 +45,13 @@
 
   app.filter('searchBy', function () {
     return function (card, searchTerm) {
-      var matchesName = card.name.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
-      var matchesRarity = card.rarity.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
+      var searchTermLowerCase = searchTerm.toLowerCase();
+      var matchesName = card.name.toLowerCase().indexOf(searchTermLowerCase) > -1;
+      var matchesRarity = card.rarity.toLowerCase().indexOf(searchTermLowerCase) > -1;
 
       var matchesKind = false;
       if (card.race !== null) {
-        matchesKind = card.race.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
+        matchesKind = card.race.toLowerCase().indexOf(searchTermLowerCase) > -1;
       }
 
       return matchesName || matchesKind || matchesRarity;
