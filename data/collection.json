@@ -5575,7 +5575,7 @@
   "Earth Shock": {
     "amount": [
       2,
-      0
+      1
     ],
     "id": "EX1_245",
     "text": "<b>Silence</b> a minion, then deal $1 damage to it.",
@@ -6989,7 +6989,7 @@
   },
   "Mukla's Champion": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_090",
@@ -7557,5 +7557,73 @@
     "health": null,
     "race": null,
     "mechanics": null
+  },
+  "Coldarra Drake": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_008",
+    "text": "You can use your Hero Power any number of times.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 6,
+    "attack": 6,
+    "health": 6,
+    "race": "Dragon",
+    "mechanics": [
+      "Aura"
+    ]
+  },
+  "Light's Champion": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_106",
+    "text": "<b>Battlecry:</b> <b>Silence</b> a Demon.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Wyrmrest Agent": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_116",
+    "text": "<b>Battlecry:</b> If you're holding a Dragon, gain +1 Attack and <b>Taunt</b>.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 1,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Dreadsteed": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_019",
+    "text": "<b>Deathrattle:</b> Summon a Dreadsteed.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 4,
+    "attack": 1,
+    "health": 1,
+    "race": "Demon",
+    "mechanics": [
+      "Deathrattle"
+    ]
   }
 }
