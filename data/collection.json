@@ -5031,7 +5031,7 @@
   },
   "Spider Tank": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "GVG_044",
@@ -6844,7 +6844,7 @@
   },
   "Warhorse Trainer": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_075",
@@ -7056,7 +7056,7 @@
   },
   "Spawn of Shadows": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_012",
@@ -7625,5 +7625,35 @@
     "mechanics": [
       "Deathrattle"
     ]
+  },
+  "Power Word: Glory": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_013",
+    "text": "Choose a minion. Whenever it attacks, restore 4 Health to\nyour hero.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Magnataur Alpha": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_067",
+    "text": "Also damages the minions next to whomever\nhe attacks.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 4,
+    "attack": 5,
+    "health": 3,
+    "race": null,
+    "mechanics": null
   }
 }
