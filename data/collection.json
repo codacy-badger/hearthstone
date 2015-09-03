@@ -4869,7 +4869,7 @@
   },
   "Rampage": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "CS2_104",
@@ -6665,7 +6665,7 @@
   },
   "Battle Rage": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_392",
@@ -6680,7 +6680,7 @@
   },
   "Pint-Sized Summoner": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_076",
@@ -7653,6 +7653,21 @@
     "cost": 4,
     "attack": 5,
     "health": 3,
+    "race": null,
+    "mechanics": null
+  },
+  "Force of Nature": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_571",
+    "text": "Summon three 2/2 Treants with <b>Charge</b> that die at the end of the turn.",
+    "type": "Spell",
+    "rarity": "Epic",
+    "cost": 6,
+    "attack": null,
+    "health": null,
     "race": null,
     "mechanics": null
   }
