@@ -467,7 +467,7 @@
     "id": "EX1_617",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Destroy a random enemy minion.",
     "rarity": "Common",
@@ -4837,7 +4837,7 @@
   },
   "Raging Worgen": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_412",
