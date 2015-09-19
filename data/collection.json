@@ -7152,7 +7152,7 @@
   },
   "Master Jouster": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_112",
@@ -7286,7 +7286,7 @@
   },
   "Effigy": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_002",
@@ -7748,6 +7748,23 @@
     "race": "Beast",
     "mechanics": [
       "Inspire"
+    ]
+  },
+  "Spellslinger": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_007",
+    "text": "<b>Battlecry:</b> Add a random spell to each player's hand.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 3,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
     ]
   }
 }
