@@ -3448,7 +3448,7 @@
   },
   "Coldlight Seer": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_103",
@@ -7024,7 +7024,7 @@
   "Healing Wave": {
     "amount": [
       1,
-      0
+      1
     ],
     "id": "AT_048",
     "text": "Restore #7 Health. Reveal a minion in each deck. If yours costs more, Restore #14 instead.",
@@ -7254,7 +7254,7 @@
   },
   "Holy Champion": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_011",
@@ -7353,7 +7353,7 @@
   "Undercity Valiant": {
     "amount": [
       2,
-      0
+      1
     ],
     "id": "AT_030",
     "text": "<b>Combo:</b> Deal 1 damage.",
@@ -7594,7 +7594,7 @@
   },
   "Wyrmrest Agent": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_116",
@@ -7766,5 +7766,72 @@
     "mechanics": [
       "Battlecry"
     ]
+  },
+  "Wildwalker": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_040",
+    "text": "<b>Battlecry:</b> Give a friendly Beast +3 Health.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Darnassus Aspirant": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_038",
+    "text": "<b>Battlecry:</b> Gain an empty Mana Crystal.\n<b>Deathrattle:</b> Lose a Mana Crystal.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry",
+      "Deathrattle"
+    ]
+  },
+  "Stablemaster": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_057",
+    "text": "<b>Battlecry:</b> Give a friendly Beast <b>Immune</b> this turn.",
+    "type": "Minion",
+    "rarity": "Epic",
+    "cost": 3,
+    "attack": 4,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Flame Lance": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_001",
+    "text": "Deal $8 damage to a minion.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
   }
 }
