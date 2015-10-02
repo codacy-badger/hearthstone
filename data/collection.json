@@ -786,7 +786,7 @@
     "id": "EX1_289",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "<b>Secret:</b> When your hero is attacked, gain 8 Armor.",
     "rarity": "Common",
@@ -7833,5 +7833,52 @@
     "health": null,
     "race": null,
     "mechanics": null
+  },
+  "Violet Teacher": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "NEW1_026",
+    "text": "Whenever you cast a spell, summon a 1/1 Violet Apprentice.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "race": null,
+    "mechanics": null
+  },
+  "Inner Fire": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "CS1_129",
+    "text": "Change a minion's Attack to be equal to its Health.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 1,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "SI:7 Agent": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_134",
+    "text": "<b>Combo:</b> Deal 2 damage.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Combo"
+    ]
   }
 }
