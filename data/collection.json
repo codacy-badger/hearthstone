@@ -866,7 +866,7 @@
   "Ethereal Arcanist": {
     "id": "EX1_274",
     "amount": [
-      1,
+      2,
       0
     ],
     "text": "If you control a <b>Secret</b> at the end of your turn, gain +2/+2.",
@@ -7545,7 +7545,7 @@
   },
   "Powershot": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_056",
@@ -7895,5 +7895,73 @@
     "health": 3,
     "race": null,
     "mechanics": null
+  },
+  "Frigid Snobold": {
+    "amount": [
+      2,
+      0
+    ],
+    "id": "AT_093",
+    "text": "<b>Spell Damage +1</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 2,
+    "health": 6,
+    "race": null,
+    "mechanics": [
+      "Spellpower"
+    ]
+  },
+  "Dalaran Aspirant": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_006",
+    "text": "<b>Inspire:</b> Gain <b>Spell Damage +1</b>.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": 3,
+    "health": 5,
+    "race": null,
+    "mechanics": [
+      "Inspire"
+    ]
+  },
+  "Shado-Pan Rider": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_028",
+    "text": "<b>Combo:</b> Gain +3 Attack.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 3,
+    "health": 7,
+    "race": null,
+    "mechanics": [
+      "Combo"
+    ]
+  },
+  "Skycap'n Kragg": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_070",
+    "text": "<b>Charrrrrge</b>\nCosts (1) less for each friendly Pirate.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 4,
+    "health": 6,
+    "race": "Pirate",
+    "mechanics": [
+      "Charge"
+    ]
   }
 }
