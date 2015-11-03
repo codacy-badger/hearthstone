@@ -527,7 +527,7 @@
     "id": "DS1_070",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.",
     "rarity": "Free",
@@ -1851,7 +1851,7 @@
     "id": "EX1_238",
     "amount": [
       2,
-      0
+      1
     ],
     "text": "Deal $3 damage. <b>Overload:</b> (1)",
     "rarity": "Common",
@@ -4709,7 +4709,7 @@
   },
   "Feral Spirit": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_248",
@@ -5142,7 +5142,7 @@
   },
   "Murloc Warleader": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_507",
@@ -7269,7 +7269,7 @@
   },
   "Boneguard Lieutenant": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_089",
@@ -7628,7 +7628,7 @@
   },
   "Power Word: Glory": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "AT_013",
@@ -7753,7 +7753,7 @@
   "Spellslinger": {
     "amount": [
       1,
-      0
+      1
     ],
     "id": "AT_007",
     "text": "<b>Battlecry:</b> Add a random spell to each player's hand.",
@@ -7962,6 +7962,74 @@
     "race": "Pirate",
     "mechanics": [
       "Charge"
+    ]
+  },
+  "Stranglethorn Tiger": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_028",
+    "text": "<b>Stealth</b>",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 5,
+    "attack": 5,
+    "health": 5,
+    "race": "Beast",
+    "mechanics": [
+      "Stealth"
+    ]
+  },
+  "Saboteur": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_086",
+    "text": "<b>Battlecry:</b> Your opponent's Hero Power costs (5) more next turn.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Draenei Totemcarver": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_047",
+    "text": "<b>Battlecry:</b> Gain +1/+1 for each friendly Totem.",
+    "type": "Minion",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": 4,
+    "health": 4,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
+    ]
+  },
+  "Lance Carrier": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "AT_084",
+    "text": "<b>Battlecry:</b> Give a friendly minion +2 Attack.",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 2,
+    "attack": 1,
+    "health": 2,
+    "race": null,
+    "mechanics": [
+      "Battlecry"
     ]
   }
 }
