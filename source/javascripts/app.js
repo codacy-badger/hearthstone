@@ -45,13 +45,12 @@
 
   app.filter('searchBy', function () {
     return function (card, searchTerm) {
-      var searchTermLowerCase = searchTerm.toLowerCase();
-      var matchesName = card.name.toLowerCase().indexOf(searchTermLowerCase) > -1;
-      var matchesRarity = card.rarity.toLowerCase().indexOf(searchTermLowerCase) > -1;
+      var matchesName = thisContainsThatSubstring(card.name, searchTerm);
+      var matchesRarity = thisContainsThatSubstring(card.rarity, searchTerm);
 
       var matchesKind = false;
       if (card.race !== null) {
-        matchesKind = card.race.toLowerCase().indexOf(searchTermLowerCase) > -1;
+        matchesKind = thisContainsThatSubstring(card.race, searchTerm);
       }
 
       return matchesName || matchesKind || matchesRarity;
@@ -64,4 +63,9 @@
       return input.replace(/[\$#]/g, '');
     };
   });
+
+  // helpers
+  function thisContainsThatSubstring (thisString, thatString) {
+    return thisString.toLowerCase().indexOf(thatString.toLowerCase()) > -1;
+  }
 })();
