@@ -11,10 +11,6 @@ title: Welcome to Hearthstone!
   </div>
 </header>
 
-<div id="loading">
-  <div class="progress"></div>
-</div>
-
 <div id="cards" ng-controller="CollectionController as collection">
   <div ng-repeat="card in collection.cards | orderBy:'name'" class="card" ng-class="card.rarity | lowercase" ng-show="card | searchBy:search">
     <div class="mana">{{card.cost}}</div>
