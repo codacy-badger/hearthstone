@@ -3016,7 +3016,7 @@
   },
   "Bloodsail Raider": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "NEW1_018",
@@ -6297,7 +6297,7 @@
   },
   "Ice Block": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_295",
@@ -7673,7 +7673,7 @@
   },
   "Upgrade!": {
     "amount": [
-      0,
+      1,
       1
     ],
     "id": "EX1_409",
@@ -7866,7 +7866,7 @@
   },
   "SI:7 Agent": {
     "amount": [
-      1,
+      2,
       0
     ],
     "id": "EX1_134",
@@ -8030,6 +8030,87 @@
     "race": null,
     "mechanics": [
       "Battlecry"
+    ]
+  },
+  "Bite": {
+    "amount": [
+      0,
+      1
+    ],
+    "id": "EX1_570",
+    "text": "Give your hero +4 Attack this turn and 4 Armor.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Ancestral Spirit": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "CS2_038",
+    "text": "Give a minion \"<b>Deathrattle:</b> Resummon this minion.\"",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 2,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": null
+  },
+  "Cone of Cold": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_275",
+    "text": "<b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 4,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Freeze"
+    ]
+  },
+  "The Beast": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_577",
+    "text": "<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.",
+    "type": "Minion",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 9,
+    "health": 7,
+    "race": "Beast",
+    "mechanics": [
+      "Deathrattle"
+    ]
+  },
+  "Mass Dispel": {
+    "amount": [
+      1,
+      0
+    ],
+    "id": "EX1_626",
+    "text": "<b>Silence</b> all enemy minions. Draw a card.",
+    "type": "Spell",
+    "rarity": "Rare",
+    "cost": 4,
+    "attack": null,
+    "health": null,
+    "race": null,
+    "mechanics": [
+      "Silence"
     ]
   }
 }
