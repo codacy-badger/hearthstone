@@ -80,7 +80,7 @@ namespace :cards do
   desc "Updates cards data from hearthstonejson.com"
   task :update do
     print "Updating cards_raw.json... "
-    url = "http://hearthstonejson.com/json/AllSets.json"
+    url = "https://hearthstonejson.com/json/AllSets.json"
 
     open(@raw_filepath, "w") do |f|
       f << open(url).read
