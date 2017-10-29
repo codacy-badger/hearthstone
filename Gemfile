@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
 gem "middleman", "~>3.4"
 gem "bootstrap-sass", require: false
@@ -14,7 +14,4 @@ gem "wdm", "~> 0.1.0", platforms: [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Tests
-gem 'jasmine'
-
-# For deployment
-gem "middleman-gh-pages"
+gem "jasmine"
