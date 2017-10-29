@@ -43,7 +43,7 @@ Jasmine specs.
 
 ## Deployment
 
-    This project uses Travis CI to run CICD. :sunglasses:
+This project uses Travis CI to run CICD. :sunglasses:
 
 ## Adding Cards
 
