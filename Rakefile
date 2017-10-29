@@ -1,5 +1,4 @@
 # for editing the collection
-require 'middleman-gh-pages'
 require 'mini_magick'
 require 'open-uri'
 require 'json'

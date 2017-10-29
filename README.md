@@ -43,7 +43,7 @@ Jasmine specs.
 
 ## Deployment
 
-    $ bin/rake publish
+This project uses Travis CI to run CICD. :sunglasses:
 
 ## Adding Cards
 
