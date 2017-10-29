@@ -1,5 +1,7 @@
 # Hearthstone Collection
 
+[![Build Status](https://travis-ci.org/bergren2/hearthstone.svg?branch=master)](https://travis-ci.org/bergren2/hearthstone)
+
 Well met!
 
 This site uses data from [Hearthstone JSON](http://hearthstonejson.com).
@@ -31,8 +33,6 @@ Fire up
 and then check out the site at [localhost:4567](http://localhost:4567).
 
 ## Testing
-
-[![Build Status](https://travis-ci.org/bergren2/hearthstone.svg?branch=master)](https://travis-ci.org/bergren2/hearthstone)
 
 You can run:
 
