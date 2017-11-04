@@ -1,7 +1,9 @@
 language: ruby
 cache:
 - bundler
-before_deploy: bundle exec middleman build --clean
+script:
+  - bundle exec middleman build --clean
+  - bundle exec rake jasmine:ci
 deploy:
   provider: pages
   skip_cleanup: true
