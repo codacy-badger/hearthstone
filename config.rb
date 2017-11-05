@@ -41,16 +41,12 @@ helpers ImageHelpers
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
-
-  sprockets.append_path File.join root, "spec"
 end
 
 set :css_dir, "stylesheets"
 set :js_dir, "javascripts"
 set :images_dir, "images"
 set :partials_dir, "partials"
-
-sprockets.append_path File.join root, "bower_components"
 
 # Build-specific configuration
 configure :build do
